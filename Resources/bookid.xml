@@ -1,0 +1,1947 @@
+<?xml version="1.0"?>
+<books>
+  <book name="Genesis">
+    <ccelID>1</ccelID>
+    <osisID>Gen</osisID>
+    <chapters>50</chapters>
+    <version></version>
+    <abbrev>Genesis</abbrev>
+    <abbrev>Ge</abbrev>
+    <abbrev>Gen</abbrev>
+    <abbrev>Gene</abbrev>
+    <abbrev>Genes</abbrev>
+    <abbrev>Gn</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="31"/>
+    <chapter n="2" verses="25"/>
+    <chapter n="3" verses="24"/>
+    <chapter n="4" verses="26"/>
+    <chapter n="5" verses="32"/>
+    <chapter n="6" verses="22"/>
+    <chapter n="7" verses="24"/>
+    <chapter n="8" verses="22"/>
+    <chapter n="9" verses="29"/>
+    <chapter n="10" verses="32"/>
+    <chapter n="11" verses="32"/>
+    <chapter n="12" verses="20"/>
+    <chapter n="13" verses="18"/>
+    <chapter n="14" verses="24"/>
+    <chapter n="15" verses="21"/>
+    <chapter n="16" verses="16"/>
+    <chapter n="17" verses="27"/>
+    <chapter n="18" verses="33"/>
+    <chapter n="19" verses="38"/>
+    <chapter n="20" verses="18"/>
+    <chapter n="21" verses="34"/>
+    <chapter n="22" verses="24"/>
+    <chapter n="23" verses="20"/>
+    <chapter n="24" verses="67"/>
+    <chapter n="25" verses="34"/>
+    <chapter n="26" verses="35"/>
+    <chapter n="27" verses="46"/>
+    <chapter n="28" verses="22"/>
+    <chapter n="29" verses="35"/>
+    <chapter n="30" verses="43"/>
+    <chapter n="31" verses="55"/>
+    <chapter n="32" verses="32"/>
+    <chapter n="33" verses="20"/>
+    <chapter n="34" verses="31"/>
+    <chapter n="35" verses="29"/>
+    <chapter n="36" verses="43"/>
+    <chapter n="37" verses="36"/>
+    <chapter n="38" verses="30"/>
+    <chapter n="39" verses="23"/>
+    <chapter n="40" verses="23"/>
+    <chapter n="41" verses="57"/>
+    <chapter n="42" verses="38"/>
+    <chapter n="43" verses="34"/>
+    <chapter n="44" verses="34"/>
+    <chapter n="45" verses="28"/>
+    <chapter n="46" verses="34"/>
+    <chapter n="47" verses="31"/>
+    <chapter n="48" verses="22"/>
+    <chapter n="49" verses="33"/>
+    <chapter n="50" verses="26"/>
+  </book>
+  <book name="Exodus">
+    <ccelID>2</ccelID>
+    <osisID>Exod</osisID>
+    <chapters>40</chapters>
+    <version></version>
+    <abbrev>Exodus</abbrev>
+    <abbrev>Exod</abbrev>
+    <abbrev>Exo</abbrev>
+    <abbrev>Ex</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="22"/>
+    <chapter n="2" verses="25"/>
+    <chapter n="3" verses="22"/>
+    <chapter n="4" verses="31"/>
+    <chapter n="5" verses="23"/>
+    <chapter n="6" verses="30"/>
+    <chapter n="7" verses="25"/>
+    <chapter n="8" verses="32"/>
+    <chapter n="9" verses="35"/>
+    <chapter n="10" verses="29"/>
+    <chapter n="11" verses="10"/>
+    <chapter n="12" verses="51"/>
+    <chapter n="13" verses="22"/>
+    <chapter n="14" verses="31"/>
+    <chapter n="15" verses="27"/>
+    <chapter n="16" verses="36"/>
+    <chapter n="17" verses="16"/>
+    <chapter n="18" verses="27"/>
+    <chapter n="19" verses="25"/>
+    <chapter n="20" verses="26"/>
+    <chapter n="21" verses="36"/>
+    <chapter n="22" verses="31"/>
+    <chapter n="23" verses="33"/>
+    <chapter n="24" verses="18"/>
+    <chapter n="25" verses="40"/>
+    <chapter n="26" verses="37"/>
+    <chapter n="27" verses="21"/>
+    <chapter n="28" verses="43"/>
+    <chapter n="29" verses="46"/>
+    <chapter n="30" verses="38"/>
+    <chapter n="31" verses="18"/>
+    <chapter n="32" verses="35"/>
+    <chapter n="33" verses="23"/>
+    <chapter n="34" verses="35"/>
+    <chapter n="35" verses="35"/>
+    <chapter n="36" verses="38"/>
+    <chapter n="37" verses="29"/>
+    <chapter n="38" verses="31"/>
+    <chapter n="39" verses="43"/>
+    <chapter n="40" verses="38"/>
+  </book>
+  <book name="Leviticus">
+    <ccelID>3</ccelID>
+    <osisID>Lev</osisID>
+    <chapters>27</chapters>
+    <version></version>
+    <abbrev>Leviticus</abbrev>
+    <abbrev>Levit</abbrev>
+    <abbrev>Lev</abbrev>
+    <abbrev>Le</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="17"/>
+    <chapter n="2" verses="16"/>
+    <chapter n="3" verses="17"/>
+    <chapter n="4" verses="35"/>
+    <chapter n="5" verses="19"/>
+    <chapter n="6" verses="30"/>
+    <chapter n="7" verses="38"/>
+    <chapter n="8" verses="36"/>
+    <chapter n="9" verses="24"/>
+    <chapter n="10" verses="20"/>
+    <chapter n="11" verses="47"/>
+    <chapter n="12" verses="8"/>
+    <chapter n="13" verses="59"/>
+    <chapter n="14" verses="57"/>
+    <chapter n="15" verses="33"/>
+    <chapter n="16" verses="34"/>
+    <chapter n="17" verses="16"/>
+    <chapter n="18" verses="30"/>
+    <chapter n="19" verses="37"/>
+    <chapter n="20" verses="27"/>
+    <chapter n="21" verses="24"/>
+    <chapter n="22" verses="33"/>
+    <chapter n="23" verses="44"/>
+    <chapter n="24" verses="23"/>
+    <chapter n="25" verses="55"/>
+    <chapter n="26" verses="46"/>
+    <chapter n="27" verses="34"/>
+    <chapter n="21" verses="27"/>
+  </book>
+  <book name="Numbers">
+    <ccelID>4</ccelID>
+    <osisID>Num</osisID>
+    <chapters>36</chapters>
+    <version></version>
+    <abbrev>Numbers</abbrev>
+    <abbrev>Numb</abbrev>
+    <abbrev>Num</abbrev>
+    <abbrev>Nu</abbrev>
+    <abbrev>Nm</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="54"/>
+    <chapter n="2" verses="34"/>
+    <chapter n="3" verses="51"/>
+    <chapter n="4" verses="49"/>
+    <chapter n="5" verses="31"/>
+    <chapter n="6" verses="27"/>
+    <chapter n="7" verses="89"/>
+    <chapter n="8" verses="26"/>
+    <chapter n="9" verses="23"/>
+    <chapter n="10" verses="36"/>
+    <chapter n="11" verses="35"/>
+    <chapter n="12" verses="16"/>
+    <chapter n="13" verses="33"/>
+    <chapter n="14" verses="45"/>
+    <chapter n="15" verses="41"/>
+    <chapter n="16" verses="50"/>
+    <chapter n="17" verses="13"/>
+    <chapter n="18" verses="32"/>
+    <chapter n="19" verses="22"/>
+    <chapter n="20" verses="29"/>
+    <chapter n="21" verses="35"/>
+    <chapter n="22" verses="41"/>
+    <chapter n="23" verses="30"/>
+    <chapter n="24" verses="25"/>
+    <chapter n="25" verses="18"/>
+    <chapter n="26" verses="65"/>
+    <chapter n="27" verses="23"/>
+    <chapter n="28" verses="31"/>
+    <chapter n="29" verses="40"/>
+    <chapter n="30" verses="16"/>
+    <chapter n="31" verses="54"/>
+    <chapter n="32" verses="42"/>
+    <chapter n="33" verses="56"/>
+    <chapter n="34" verses="29"/>
+    <chapter n="35" verses="34"/>
+    <chapter n="36" verses="13"/>
+  </book>
+  <book name="Deuteronomy">
+    <ccelID>5</ccelID>
+    <osisID>Deut</osisID>
+    <chapters>34</chapters>
+    <version></version>
+    <abbrev>Deuteronomy</abbrev>
+    <abbrev>Deuter</abbrev>
+    <abbrev>Deut</abbrev>
+    <abbrev>Deu</abbrev>
+    <abbrev>De</abbrev>
+    <abbrev>Dt</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="46"/>
+    <chapter n="2" verses="37"/>
+    <chapter n="3" verses="29"/>
+    <chapter n="4" verses="49"/>
+    <chapter n="5" verses="33"/>
+    <chapter n="6" verses="25"/>
+    <chapter n="7" verses="26"/>
+    <chapter n="8" verses="20"/>
+    <chapter n="9" verses="29"/>
+    <chapter n="10" verses="22"/>
+    <chapter n="11" verses="32"/>
+    <chapter n="12" verses="32"/>
+    <chapter n="13" verses="18"/>
+    <chapter n="14" verses="29"/>
+    <chapter n="15" verses="23"/>
+    <chapter n="16" verses="22"/>
+    <chapter n="17" verses="20"/>
+    <chapter n="18" verses="22"/>
+    <chapter n="19" verses="21"/>
+    <chapter n="20" verses="20"/>
+    <chapter n="21" verses="23"/>
+    <chapter n="22" verses="30"/>
+    <chapter n="23" verses="25"/>
+    <chapter n="24" verses="22"/>
+    <chapter n="25" verses="19"/>
+    <chapter n="26" verses="19"/>
+    <chapter n="27" verses="26"/>
+    <chapter n="28" verses="68"/>
+    <chapter n="29" verses="29"/>
+    <chapter n="30" verses="20"/>
+    <chapter n="31" verses="30"/>
+    <chapter n="32" verses="52"/>
+    <chapter n="33" verses="29"/>
+    <chapter n="34" verses="12"/>
+  </book>
+  <book name="Joshua">
+    <ccelID>6</ccelID>
+    <osisID>Josh</osisID>
+    <chapters>24</chapters>
+    <version></version>
+    <abbrev>Joshua</abbrev>
+    <abbrev>Josh</abbrev>
+    <abbrev>Jos</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="18"/>
+    <chapter n="2" verses="24"/>
+    <chapter n="3" verses="17"/>
+    <chapter n="4" verses="24"/>
+    <chapter n="5" verses="15"/>
+    <chapter n="6" verses="27"/>
+    <chapter n="7" verses="26"/>
+    <chapter n="8" verses="35"/>
+    <chapter n="9" verses="27"/>
+    <chapter n="10" verses="43"/>
+    <chapter n="11" verses="23"/>
+    <chapter n="12" verses="24"/>
+    <chapter n="13" verses="33"/>
+    <chapter n="14" verses="15"/>
+    <chapter n="15" verses="63"/>
+    <chapter n="16" verses="10"/>
+    <chapter n="17" verses="18"/>
+    <chapter n="18" verses="28"/>
+    <chapter n="19" verses="51"/>
+    <chapter n="20" verses="9"/>
+    <chapter n="21" verses="45"/>
+    <chapter n="22" verses="34"/>
+    <chapter n="23" verses="16"/>
+    <chapter n="24" verses="33"/>
+  </book>
+  <book name="Judges">
+    <ccelID>7</ccelID>
+    <osisID>Judg</osisID>
+    <chapters>21</chapters>
+    <version></version>
+    <abbrev>Judges</abbrev>
+    <abbrev>Judg</abbrev>
+    <abbrev>Jud</abbrev>
+    <abbrev>Ju</abbrev>
+    <abbrev>Jdg</abbrev>
+    <abbrev>Jd</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="36"/>
+    <chapter n="2" verses="23"/>
+    <chapter n="3" verses="31"/>
+    <chapter n="4" verses="24"/>
+    <chapter n="5" verses="31"/>
+    <chapter n="6" verses="40"/>
+    <chapter n="7" verses="25"/>
+    <chapter n="8" verses="35"/>
+    <chapter n="9" verses="57"/>
+    <chapter n="10" verses="18"/>
+    <chapter n="11" verses="40"/>
+    <chapter n="12" verses="15"/>
+    <chapter n="13" verses="25"/>
+    <chapter n="14" verses="20"/>
+    <chapter n="15" verses="20"/>
+    <chapter n="16" verses="31"/>
+    <chapter n="17" verses="13"/>
+    <chapter n="18" verses="31"/>
+    <chapter n="19" verses="30"/>
+    <chapter n="20" verses="48"/>
+    <chapter n="21" verses="25"/>
+  </book>
+  <book name="Ruth">
+    <ccelID>8</ccelID>
+    <osisID>Ruth</osisID>
+    <version></version>
+    <chapters>4</chapters>
+    <abbrev>Ruth</abbrev>
+	<abbrev>Rth</abbrev>
+    <abbrev>Ru</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="22"/>
+    <chapter n="2" verses="23"/>
+    <chapter n="3" verses="18"/>
+    <chapter n="4" verses="22"/>
+  </book>
+  <book name="1 Samuel">
+    <ccelID>9</ccelID>
+    <osisID>1Sam</osisID>
+    <version></version>
+    <chapters>31</chapters>
+    <abbrev>1Samuel</abbrev>
+    <abbrev>1Sam</abbrev>
+    <abbrev>1Sa</abbrev>
+    <abbrev>1Kgdms</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="28"/>
+    <chapter n="2" verses="36"/>
+    <chapter n="3" verses="21"/>
+    <chapter n="4" verses="22"/>
+    <chapter n="5" verses="12"/>
+    <chapter n="6" verses="21"/>
+    <chapter n="7" verses="17"/>
+    <chapter n="8" verses="22"/>
+    <chapter n="9" verses="27"/>
+    <chapter n="10" verses="27"/>
+    <chapter n="11" verses="15"/>
+    <chapter n="12" verses="25"/>
+    <chapter n="13" verses="23"/>
+    <chapter n="14" verses="52"/>
+    <chapter n="15" verses="35"/>
+    <chapter n="16" verses="23"/>
+    <chapter n="17" verses="58"/>
+    <chapter n="18" verses="30"/>
+    <chapter n="19" verses="24"/>
+    <chapter n="20" verses="42"/>
+    <chapter n="21" verses="15"/>
+    <chapter n="22" verses="23"/>
+    <chapter n="23" verses="29"/>
+    <chapter n="24" verses="22"/>
+    <chapter n="25" verses="44"/>
+    <chapter n="26" verses="25"/>
+    <chapter n="27" verses="12"/>
+    <chapter n="28" verses="25"/>
+    <chapter n="29" verses="11"/>
+    <chapter n="30" verses="31"/>
+    <chapter n="31" verses="13"/>
+  </book>
+  <book name="2 Samuel">
+    <ccelID>10</ccelID>
+    <osisID>2Sam</osisID>
+    <version></version>
+    <chapters>24</chapters>
+    <abbrev>2Samuel</abbrev>
+    <abbrev>2Sam</abbrev>
+    <abbrev>2Sa</abbrev>
+    <abbrev>2Kgdms</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="27"/>
+    <chapter n="2" verses="32"/>
+    <chapter n="3" verses="39"/>
+    <chapter n="4" verses="12"/>
+    <chapter n="5" verses="25"/>
+    <chapter n="6" verses="23"/>
+    <chapter n="7" verses="29"/>
+    <chapter n="8" verses="18"/>
+    <chapter n="9" verses="13"/>
+    <chapter n="10" verses="19"/>
+    <chapter n="11" verses="27"/>
+    <chapter n="12" verses="31"/>
+    <chapter n="13" verses="39"/>
+    <chapter n="14" verses="33"/>
+    <chapter n="15" verses="37"/>
+    <chapter n="16" verses="23"/>
+    <chapter n="17" verses="29"/>
+    <chapter n="18" verses="33"/>
+    <chapter n="19" verses="43"/>
+    <chapter n="20" verses="26"/>
+    <chapter n="21" verses="22"/>
+    <chapter n="22" verses="51"/>
+    <chapter n="23" verses="39"/>
+    <chapter n="24" verses="25"/>
+  </book>
+  <book name="1 Kings">
+    <ccelID>11</ccelID>
+    <osisID>1Kgs</osisID>
+    <version></version>
+    <chapters>22</chapters>
+    <abbrev>1Kings</abbrev>
+    <abbrev>1King</abbrev>
+    <abbrev>1Ki</abbrev>
+    <abbrev>1Kgs</abbrev>
+    <abbrev>3Kgdms</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="53"/>
+    <chapter n="2" verses="46"/>
+    <chapter n="3" verses="28"/>
+    <chapter n="4" verses="34"/>
+    <chapter n="5" verses="18"/>
+    <chapter n="6" verses="38"/>
+    <chapter n="7" verses="51"/>
+    <chapter n="8" verses="66"/>
+    <chapter n="9" verses="28"/>
+    <chapter n="10" verses="29"/>
+    <chapter n="11" verses="43"/>
+    <chapter n="12" verses="33"/>
+    <chapter n="13" verses="34"/>
+    <chapter n="14" verses="31"/>
+    <chapter n="15" verses="34"/>
+    <chapter n="16" verses="34"/>
+    <chapter n="17" verses="24"/>
+    <chapter n="18" verses="46"/>
+    <chapter n="19" verses="21"/>
+    <chapter n="20" verses="43"/>
+    <chapter n="21" verses="29"/>
+    <chapter n="22" verses="53"/>
+  </book>
+  <book name="2 Kings">
+    <ccelID>12</ccelID>
+    <osisID>2Kgs</osisID>
+    <version></version>
+    <chapters>25</chapters>
+    <abbrev>2Kings</abbrev>
+    <abbrev>2King</abbrev>
+    <abbrev>2Ki</abbrev>
+    <abbrev>2Kgs</abbrev>
+    <abbrev>4Kgdms</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="18"/>
+    <chapter n="2" verses="25"/>
+    <chapter n="3" verses="27"/>
+    <chapter n="4" verses="44"/>
+    <chapter n="5" verses="27"/>
+    <chapter n="6" verses="33"/>
+    <chapter n="7" verses="20"/>
+    <chapter n="8" verses="29"/>
+    <chapter n="9" verses="37"/>
+    <chapter n="10" verses="36"/>
+    <chapter n="11" verses="21"/>
+    <chapter n="12" verses="21"/>
+    <chapter n="13" verses="25"/>
+    <chapter n="14" verses="29"/>
+    <chapter n="15" verses="38"/>
+    <chapter n="16" verses="20"/>
+    <chapter n="17" verses="41"/>
+    <chapter n="18" verses="37"/>
+    <chapter n="19" verses="37"/>
+    <chapter n="20" verses="21"/>
+    <chapter n="21" verses="26"/>
+    <chapter n="22" verses="20"/>
+    <chapter n="23" verses="37"/>
+    <chapter n="24" verses="20"/>
+    <chapter n="25" verses="30"/>
+  </book>
+  <book name="1 Chronicles">
+    <ccelID>13</ccelID>
+    <osisID>1Chr</osisID>
+    <version></version>
+    <chapters>29</chapters>
+    <abbrev>1Chronicles</abbrev>
+    <abbrev>1Chron</abbrev>
+    <abbrev>1Chro</abbrev>
+    <abbrev>1Chr</abbrev>
+    <abbrev>1Ch</abbrev>
+    <abbrev>1Pa</abbrev>
+    <abbrev>1Par</abbrev>
+    <abbrev>1Para</abbrev>
+    <abbrev>1Paral</abbrev>
+    <abbrev>1Paralip</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="54"/>
+    <chapter n="2" verses="55"/>
+    <chapter n="3" verses="24"/>
+    <chapter n="4" verses="43"/>
+    <chapter n="5" verses="26"/>
+    <chapter n="6" verses="81"/>
+    <chapter n="7" verses="40"/>
+    <chapter n="8" verses="40"/>
+    <chapter n="9" verses="44"/>
+    <chapter n="10" verses="14"/>
+    <chapter n="11" verses="47"/>
+    <chapter n="12" verses="40"/>
+    <chapter n="13" verses="14"/>
+    <chapter n="14" verses="17"/>
+    <chapter n="15" verses="29"/>
+    <chapter n="16" verses="43"/>
+    <chapter n="17" verses="27"/>
+    <chapter n="18" verses="17"/>
+    <chapter n="19" verses="19"/>
+    <chapter n="20" verses="8"/>
+    <chapter n="21" verses="30"/>
+    <chapter n="22" verses="19"/>
+    <chapter n="23" verses="32"/>
+    <chapter n="24" verses="31"/>
+    <chapter n="25" verses="31"/>
+    <chapter n="26" verses="32"/>
+    <chapter n="27" verses="34"/>
+    <chapter n="28" verses="21"/>
+    <chapter n="29" verses="30"/>
+  </book>
+  <book name="2 Chronicles">
+    <ccelID>14</ccelID>
+    <osisID>2Chr</osisID>
+    <version></version>
+    <chapters>36</chapters>
+    <abbrev>2Chronicles</abbrev>
+    <abbrev>2Chron</abbrev>
+    <abbrev>2Chro</abbrev>
+    <abbrev>2Chr</abbrev>
+    <abbrev>2Ch</abbrev>
+    <abbrev>2Pa</abbrev>
+    <abbrev>2Par</abbrev>
+    <abbrev>2Para</abbrev>
+    <abbrev>2Paral</abbrev>
+    <abbrev>2Paralip</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="17"/>
+    <chapter n="2" verses="18"/>
+    <chapter n="3" verses="17"/>
+    <chapter n="4" verses="22"/>
+    <chapter n="5" verses="14"/>
+    <chapter n="6" verses="42"/>
+    <chapter n="7" verses="22"/>
+    <chapter n="8" verses="18"/>
+    <chapter n="9" verses="31"/>
+    <chapter n="10" verses="19"/>
+    <chapter n="11" verses="23"/>
+    <chapter n="12" verses="16"/>
+    <chapter n="13" verses="22"/>
+    <chapter n="14" verses="15"/>
+    <chapter n="15" verses="19"/>
+    <chapter n="16" verses="14"/>
+    <chapter n="17" verses="19"/>
+    <chapter n="18" verses="34"/>
+    <chapter n="19" verses="11"/>
+    <chapter n="20" verses="37"/>
+    <chapter n="21" verses="20"/>
+    <chapter n="22" verses="12"/>
+    <chapter n="23" verses="21"/>
+    <chapter n="24" verses="27"/>
+    <chapter n="25" verses="28"/>
+    <chapter n="26" verses="23"/>
+    <chapter n="27" verses="9"/>
+    <chapter n="28" verses="27"/>
+    <chapter n="29" verses="36"/>
+    <chapter n="30" verses="27"/>
+    <chapter n="31" verses="21"/>
+    <chapter n="32" verses="33"/>
+    <chapter n="33" verses="25"/>
+    <chapter n="34" verses="33"/>
+    <chapter n="35" verses="27"/>
+    <chapter n="36" verses="23"/>
+  </book>
+  <book name="Ezra">
+    <ccelID>15</ccelID>
+    <osisID>Ezra</osisID>
+    <version></version>
+    <chapters>10</chapters>
+    <abbrev>Ezra</abbrev>
+    <abbrev>Ezr</abbrev>
+    <abbrev>Ez</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="11"/>
+    <chapter n="2" verses="70"/>
+    <chapter n="3" verses="13"/>
+    <chapter n="4" verses="24"/>
+    <chapter n="5" verses="17"/>
+    <chapter n="6" verses="22"/>
+    <chapter n="7" verses="28"/>
+    <chapter n="8" verses="36"/>
+    <chapter n="9" verses="15"/>
+    <chapter n="10" verses="44"/>
+  </book>
+  <book name="Nehemiah">
+    <ccelID>16</ccelID>
+    <version></version>
+    <chapters>13</chapters>
+    <osisID>Neh</osisID>
+    <abbrev>Nehemiah</abbrev>
+    <abbrev>Nehem</abbrev>
+    <abbrev>Neh</abbrev>
+    <abbrev>Ne</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="11"/>
+    <chapter n="2" verses="20"/>
+    <chapter n="3" verses="32"/>
+    <chapter n="4" verses="23"/>
+    <chapter n="5" verses="19"/>
+    <chapter n="6" verses="19"/>
+    <chapter n="7" verses="73"/>
+    <chapter n="8" verses="18"/>
+    <chapter n="9" verses="38"/>
+    <chapter n="10" verses="39"/>
+    <chapter n="11" verses="36"/>
+    <chapter n="12" verses="47"/>
+    <chapter n="13" verses="31"/>
+  </book>
+  <book name="Esther">
+    <ccelID>17</ccelID>
+    <osisID>Esth</osisID>
+    <version></version>
+    <chapters>10</chapters>
+    <abbrev>Esther</abbrev>
+    <abbrev>Esth</abbrev>
+    <abbrev>Est</abbrev>
+    <abbrev>Es</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="22"/>
+    <chapter n="2" verses="23"/>
+    <chapter n="3" verses="15"/>
+    <chapter n="4" verses="17"/>
+    <chapter n="5" verses="14"/>
+    <chapter n="6" verses="14"/>
+    <chapter n="7" verses="10"/>
+    <chapter n="8" verses="17"/>
+    <chapter n="9" verses="32"/>
+    <chapter n="10" verses="3"/>
+  </book>
+  <book name="Job">
+    <ccelID>18</ccelID>
+    <osisID>Job</osisID>
+    <version></version>
+    <chapters>42</chapters>
+    <abbrev>Job</abbrev>
+    <abbrev>Jo</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="22"/>
+    <chapter n="2" verses="13"/>
+    <chapter n="3" verses="26"/>
+    <chapter n="4" verses="21"/>
+    <chapter n="5" verses="27"/>
+    <chapter n="6" verses="30"/>
+    <chapter n="7" verses="21"/>
+    <chapter n="8" verses="22"/>
+    <chapter n="9" verses="35"/>
+    <chapter n="10" verses="22"/>
+    <chapter n="11" verses="20"/>
+    <chapter n="12" verses="25"/>
+    <chapter n="13" verses="28"/>
+    <chapter n="14" verses="22"/>
+    <chapter n="15" verses="35"/>
+    <chapter n="16" verses="22"/>
+    <chapter n="17" verses="16"/>
+    <chapter n="18" verses="21"/>
+    <chapter n="19" verses="29"/>
+    <chapter n="20" verses="29"/>
+    <chapter n="21" verses="34"/>
+    <chapter n="22" verses="30"/>
+    <chapter n="23" verses="17"/>
+    <chapter n="24" verses="25"/>
+    <chapter n="25" verses="6"/>
+    <chapter n="26" verses="14"/>
+    <chapter n="27" verses="23"/>
+    <chapter n="28" verses="28"/>
+    <chapter n="29" verses="25"/>
+    <chapter n="30" verses="31"/>
+    <chapter n="31" verses="40"/>
+    <chapter n="32" verses="22"/>
+    <chapter n="33" verses="33"/>
+    <chapter n="34" verses="37"/>
+    <chapter n="35" verses="16"/>
+    <chapter n="36" verses="33"/>
+    <chapter n="37" verses="24"/>
+    <chapter n="38" verses="41"/>
+    <chapter n="39" verses="30"/>
+    <chapter n="40" verses="24"/>
+    <chapter n="41" verses="34"/>
+    <chapter n="42" verses="17"/>
+  </book>
+  <book name="Psalms">
+    <ccelID>19</ccelID>
+    <osisID>Ps</osisID>
+    <version></version>
+    <chapters>150</chapters>
+    <abbrev>Psalms</abbrev>
+    <abbrev>Psalm</abbrev>
+    <abbrev>Psal</abbrev>
+    <abbrev>Psa</abbrev>
+    <abbrev>Ps</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="6"/>
+    <chapter n="2" verses="12"/>
+    <chapter n="3" verses="8"/>
+    <chapter n="4" verses="8"/>
+    <chapter n="5" verses="12"/>
+    <chapter n="6" verses="10"/>
+    <chapter n="7" verses="17"/>
+    <chapter n="8" verses="9"/>
+    <chapter n="9" verses="20"/>
+    <chapter n="10" verses="18"/>
+    <chapter n="11" verses="7"/>
+    <chapter n="12" verses="8"/>
+    <chapter n="13" verses="6"/>
+    <chapter n="14" verses="7"/>
+    <chapter n="15" verses="5"/>
+    <chapter n="16" verses="11"/>
+    <chapter n="17" verses="15"/>
+    <chapter n="18" verses="50"/>
+    <chapter n="19" verses="14"/>
+    <chapter n="20" verses="9"/>
+    <chapter n="21" verses="13"/>
+    <chapter n="22" verses="31"/>
+    <chapter n="23" verses="6"/>
+    <chapter n="24" verses="10"/>
+    <chapter n="25" verses="22"/>
+    <chapter n="26" verses="12"/>
+    <chapter n="27" verses="14"/>
+    <chapter n="28" verses="9"/>
+    <chapter n="29" verses="11"/>
+    <chapter n="30" verses="12"/>
+    <chapter n="31" verses="24"/>
+    <chapter n="32" verses="11"/>
+    <chapter n="33" verses="22"/>
+    <chapter n="34" verses="22"/>
+    <chapter n="35" verses="28"/>
+    <chapter n="36" verses="12"/>
+    <chapter n="37" verses="40"/>
+    <chapter n="38" verses="22"/>
+    <chapter n="39" verses="13"/>
+    <chapter n="40" verses="17"/>
+    <chapter n="41" verses="13"/>
+    <chapter n="42" verses="11"/>
+    <chapter n="43" verses="5"/>
+    <chapter n="44" verses="26"/>
+    <chapter n="45" verses="17"/>
+    <chapter n="46" verses="11"/>
+    <chapter n="47" verses="9"/>
+    <chapter n="48" verses="14"/>
+    <chapter n="49" verses="20"/>
+    <chapter n="50" verses="23"/>
+    <chapter n="51" verses="19"/>
+    <chapter n="52" verses="9"/>
+    <chapter n="53" verses="6"/>
+    <chapter n="54" verses="7"/>
+    <chapter n="55" verses="23"/>
+    <chapter n="56" verses="13"/>
+    <chapter n="57" verses="11"/>
+    <chapter n="58" verses="11"/>
+    <chapter n="59" verses="17"/>
+    <chapter n="60" verses="12"/>
+    <chapter n="61" verses="8"/>
+    <chapter n="62" verses="12"/>
+    <chapter n="63" verses="11"/>
+    <chapter n="64" verses="10"/>
+    <chapter n="65" verses="13"/>
+    <chapter n="66" verses="20"/>
+    <chapter n="67" verses="7"/>
+    <chapter n="68" verses="35"/>
+    <chapter n="69" verses="36"/>
+    <chapter n="70" verses="5"/>
+    <chapter n="71" verses="24"/>
+    <chapter n="72" verses="20"/>
+    <chapter n="73" verses="28"/>
+    <chapter n="74" verses="23"/>
+    <chapter n="75" verses="10"/>
+    <chapter n="76" verses="12"/>
+    <chapter n="77" verses="20"/>
+    <chapter n="78" verses="72"/>
+    <chapter n="79" verses="13"/>
+    <chapter n="80" verses="19"/>
+    <chapter n="81" verses="16"/>
+    <chapter n="82" verses="8"/>
+    <chapter n="83" verses="18"/>
+    <chapter n="84" verses="12"/>
+    <chapter n="85" verses="13"/>
+    <chapter n="86" verses="17"/>
+    <chapter n="87" verses="7"/>
+    <chapter n="88" verses="18"/>
+    <chapter n="89" verses="52"/>
+    <chapter n="90" verses="17"/>
+    <chapter n="91" verses="16"/>
+    <chapter n="92" verses="15"/>
+    <chapter n="93" verses="5"/>
+    <chapter n="94" verses="23"/>
+    <chapter n="95" verses="11"/>
+    <chapter n="96" verses="13"/>
+    <chapter n="97" verses="12"/>
+    <chapter n="98" verses="9"/>
+    <chapter n="99" verses="9"/>
+    <chapter n="100" verses="5"/>
+    <chapter n="101" verses="8"/>
+    <chapter n="102" verses="28"/>
+    <chapter n="103" verses="22"/>
+    <chapter n="104" verses="35"/>
+    <chapter n="105" verses="45"/>
+    <chapter n="106" verses="48"/>
+    <chapter n="107" verses="43"/>
+    <chapter n="108" verses="13"/>
+    <chapter n="109" verses="31"/>
+    <chapter n="110" verses="7"/>
+    <chapter n="111" verses="10"/>
+    <chapter n="112" verses="10"/>
+    <chapter n="113" verses="9"/>
+    <chapter n="114" verses="8"/>
+    <chapter n="115" verses="18"/>
+    <chapter n="116" verses="19"/>
+    <chapter n="117" verses="2"/>
+    <chapter n="118" verses="29"/>
+    <chapter n="119" verses="176"/>
+    <chapter n="120" verses="7"/>
+    <chapter n="121" verses="8"/>
+    <chapter n="122" verses="9"/>
+    <chapter n="123" verses="4"/>
+    <chapter n="124" verses="8"/>
+    <chapter n="125" verses="5"/>
+    <chapter n="126" verses="6"/>
+    <chapter n="127" verses="5"/>
+    <chapter n="128" verses="6"/>
+    <chapter n="129" verses="8"/>
+    <chapter n="130" verses="8"/>
+    <chapter n="131" verses="3"/>
+    <chapter n="132" verses="18"/>
+    <chapter n="133" verses="3"/>
+    <chapter n="134" verses="3"/>
+    <chapter n="135" verses="21"/>
+    <chapter n="136" verses="26"/>
+    <chapter n="137" verses="9"/>
+    <chapter n="138" verses="8"/>
+    <chapter n="139" verses="24"/>
+    <chapter n="140" verses="13"/>
+    <chapter n="141" verses="10"/>
+    <chapter n="142" verses="7"/>
+    <chapter n="143" verses="12"/>
+    <chapter n="144" verses="15"/>
+    <chapter n="145" verses="21"/>
+    <chapter n="146" verses="10"/>
+    <chapter n="147" verses="20"/>
+    <chapter n="148" verses="14"/>
+    <chapter n="149" verses="9"/>
+    <chapter n="150" verses="6"/>
+  </book>
+  <book name="Proverbs">
+    <ccelID>20</ccelID>
+    <osisID>Prov</osisID>
+    <version></version>
+    <chapters>31</chapters>
+    <abbrev>Proverbs</abbrev>
+    <abbrev>Prov</abbrev>
+    <abbrev>Pro</abbrev>
+    <abbrev>Pr</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="33"/>
+    <chapter n="2" verses="22"/>
+    <chapter n="3" verses="35"/>
+    <chapter n="4" verses="27"/>
+    <chapter n="5" verses="23"/>
+    <chapter n="6" verses="35"/>
+    <chapter n="7" verses="27"/>
+    <chapter n="8" verses="36"/>
+    <chapter n="9" verses="18"/>
+    <chapter n="10" verses="32"/>
+    <chapter n="11" verses="31"/>
+    <chapter n="12" verses="28"/>
+    <chapter n="13" verses="25"/>
+    <chapter n="14" verses="35"/>
+    <chapter n="15" verses="33"/>
+    <chapter n="16" verses="33"/>
+    <chapter n="17" verses="28"/>
+    <chapter n="18" verses="24"/>
+    <chapter n="19" verses="29"/>
+    <chapter n="20" verses="30"/>
+    <chapter n="21" verses="31"/>
+    <chapter n="22" verses="29"/>
+    <chapter n="23" verses="35"/>
+    <chapter n="24" verses="34"/>
+    <chapter n="25" verses="28"/>
+    <chapter n="26" verses="28"/>
+    <chapter n="27" verses="27"/>
+    <chapter n="28" verses="28"/>
+    <chapter n="29" verses="27"/>
+    <chapter n="30" verses="33"/>
+    <chapter n="31" verses="31"/>
+  </book>
+  <book name="Ecclesiastes">
+    <ccelID>21</ccelID>
+    <osisID>Eccl</osisID>
+    <version></version>
+    <chapters>12</chapters>
+    <abbrev>Ecclesiastes</abbrev>
+    <abbrev>Eccles</abbrev>
+    <abbrev>Eccl</abbrev>
+    <abbrev>Ecc</abbrev>
+    <abbrev>Ec</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="18"/>
+    <chapter n="2" verses="26"/>
+    <chapter n="3" verses="22"/>
+    <chapter n="4" verses="16"/>
+    <chapter n="5" verses="20"/>
+    <chapter n="6" verses="12"/>
+    <chapter n="7" verses="29"/>
+    <chapter n="8" verses="17"/>
+    <chapter n="9" verses="18"/>
+    <chapter n="10" verses="20"/>
+    <chapter n="11" verses="10"/>
+    <chapter n="12" verses="14"/>
+  </book>
+  <book name="Song of Solomon">
+    <ccelID>22</ccelID>
+    <osisID>Song</osisID>
+    <version></version>
+    <chapters>8</chapters>
+    <abbrev>Song of Solomon</abbrev>
+    <abbrev>Song of Songs</abbrev>
+    <abbrev>Song of Sol</abbrev>
+    <abbrev>SS</abbrev>
+    <abbrev>SSong</abbrev>
+    <abbrev>So</abbrev>
+	<abbrev>Son</abbrev>
+    <abbrev>Cant</abbrev>
+    <abbrev>Canticle</abbrev>
+    <abbrev>Canticles</abbrev>
+    <abbrev>Sol. Song</abbrev>
+    <abbrev>Song</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="17"/>
+    <chapter n="2" verses="17"/>
+    <chapter n="3" verses="11"/>
+    <chapter n="4" verses="16"/>
+    <chapter n="5" verses="16"/>
+    <chapter n="6" verses="13"/>
+    <chapter n="7" verses="13"/>
+    <chapter n="8" verses="14"/>
+  </book>
+  <book name="Isaiah">
+    <ccelID>23</ccelID>
+    <osisID>Isa</osisID>
+    <version></version>
+    <chapters>66</chapters>
+    <abbrev>Isaiah</abbrev>
+    <abbrev>Isa</abbrev>
+    <abbrev>Is</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="31"/>
+    <chapter n="2" verses="22"/>
+    <chapter n="3" verses="26"/>
+    <chapter n="4" verses="6"/>
+    <chapter n="5" verses="30"/>
+    <chapter n="6" verses="13"/>
+    <chapter n="7" verses="25"/>
+    <chapter n="8" verses="22"/>
+    <chapter n="9" verses="21"/>
+    <chapter n="10" verses="34"/>
+    <chapter n="11" verses="16"/>
+    <chapter n="12" verses="6"/>
+    <chapter n="13" verses="22"/>
+    <chapter n="14" verses="32"/>
+    <chapter n="15" verses="9"/>
+    <chapter n="16" verses="14"/>
+    <chapter n="17" verses="14"/>
+    <chapter n="18" verses="7"/>
+    <chapter n="19" verses="25"/>
+    <chapter n="20" verses="6"/>
+    <chapter n="21" verses="17"/>
+    <chapter n="22" verses="25"/>
+    <chapter n="23" verses="18"/>
+    <chapter n="24" verses="23"/>
+    <chapter n="25" verses="12"/>
+    <chapter n="26" verses="21"/>
+    <chapter n="27" verses="13"/>
+    <chapter n="28" verses="29"/>
+    <chapter n="29" verses="24"/>
+    <chapter n="30" verses="33"/>
+    <chapter n="31" verses="9"/>
+    <chapter n="32" verses="20"/>
+    <chapter n="33" verses="24"/>
+    <chapter n="34" verses="17"/>
+    <chapter n="35" verses="10"/>
+    <chapter n="36" verses="22"/>
+    <chapter n="37" verses="38"/>
+    <chapter n="38" verses="22"/>
+    <chapter n="39" verses="8"/>
+    <chapter n="40" verses="31"/>
+    <chapter n="41" verses="29"/>
+    <chapter n="42" verses="25"/>
+    <chapter n="43" verses="28"/>
+    <chapter n="44" verses="28"/>
+    <chapter n="45" verses="25"/>
+    <chapter n="46" verses="13"/>
+    <chapter n="47" verses="15"/>
+    <chapter n="48" verses="22"/>
+    <chapter n="49" verses="26"/>
+    <chapter n="50" verses="11"/>
+    <chapter n="51" verses="23"/>
+    <chapter n="52" verses="15"/>
+    <chapter n="53" verses="12"/>
+    <chapter n="54" verses="17"/>
+    <chapter n="55" verses="13"/>
+    <chapter n="56" verses="12"/>
+    <chapter n="57" verses="21"/>
+    <chapter n="58" verses="14"/>
+    <chapter n="59" verses="21"/>
+    <chapter n="60" verses="22"/>
+    <chapter n="61" verses="11"/>
+    <chapter n="62" verses="12"/>
+    <chapter n="63" verses="19"/>
+    <chapter n="64" verses="12"/>
+    <chapter n="65" verses="25"/>
+    <chapter n="66" verses="24"/>
+  </book>
+  <book name="Jeremiah">
+    <ccelID>24</ccelID>
+    <osisID>Jer</osisID>
+    <version></version>
+    <chapters>52</chapters>
+    <abbrev>Jeremiah</abbrev>
+    <abbrev>Jerem</abbrev>
+    <abbrev>Jere</abbrev>
+    <abbrev>Jer</abbrev>
+    <abbrev>Je</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="19"/>
+    <chapter n="2" verses="37"/>
+    <chapter n="3" verses="25"/>
+    <chapter n="4" verses="31"/>
+    <chapter n="5" verses="31"/>
+    <chapter n="6" verses="30"/>
+    <chapter n="7" verses="34"/>
+    <chapter n="8" verses="22"/>
+    <chapter n="9" verses="26"/>
+    <chapter n="10" verses="25"/>
+    <chapter n="11" verses="23"/>
+    <chapter n="12" verses="17"/>
+    <chapter n="13" verses="27"/>
+    <chapter n="14" verses="22"/>
+    <chapter n="15" verses="21"/>
+    <chapter n="16" verses="21"/>
+    <chapter n="17" verses="27"/>
+    <chapter n="18" verses="23"/>
+    <chapter n="19" verses="15"/>
+    <chapter n="20" verses="18"/>
+    <chapter n="21" verses="14"/>
+    <chapter n="22" verses="30"/>
+    <chapter n="23" verses="40"/>
+    <chapter n="24" verses="10"/>
+    <chapter n="25" verses="38"/>
+    <chapter n="26" verses="24"/>
+    <chapter n="27" verses="22"/>
+    <chapter n="28" verses="17"/>
+    <chapter n="29" verses="32"/>
+    <chapter n="30" verses="24"/>
+    <chapter n="31" verses="40"/>
+    <chapter n="32" verses="44"/>
+    <chapter n="33" verses="26"/>
+    <chapter n="34" verses="22"/>
+    <chapter n="35" verses="19"/>
+    <chapter n="36" verses="32"/>
+    <chapter n="37" verses="21"/>
+    <chapter n="38" verses="28"/>
+    <chapter n="39" verses="18"/>
+    <chapter n="40" verses="16"/>
+    <chapter n="41" verses="18"/>
+    <chapter n="42" verses="22"/>
+    <chapter n="43" verses="13"/>
+    <chapter n="44" verses="30"/>
+    <chapter n="45" verses="5"/>
+    <chapter n="46" verses="28"/>
+    <chapter n="47" verses="7"/>
+    <chapter n="48" verses="47"/>
+    <chapter n="49" verses="39"/>
+    <chapter n="50" verses="46"/>
+    <chapter n="51" verses="64"/>
+    <chapter n="52" verses="34"/>
+  </book>
+  <book name="Lamentations">
+    <ccelID>25</ccelID>
+    <osisID>Lam</osisID>
+    <version></version>
+    <chapters>5</chapters>
+    <abbrev>Lamentations</abbrev>
+    <abbrev>Lament</abbrev>
+    <abbrev>Lamen</abbrev>
+    <abbrev>Lam</abbrev>
+    <abbrev>La</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="22"/>
+    <chapter n="2" verses="22"/>
+    <chapter n="3" verses="66"/>
+    <chapter n="4" verses="22"/>
+    <chapter n="5" verses="22"/>
+  </book>
+  <book name="Ezekiel">
+    <ccelID>26</ccelID>
+    <osisID>Ezek</osisID>
+    <version></version>
+    <chapters>48</chapters>
+    <abbrev>Ezekiel</abbrev>
+    <abbrev>Ezek</abbrev>
+    <abbrev>Eze</abbrev>
+    <abbrev>Ez</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="28"/>
+    <chapter n="2" verses="10"/>
+    <chapter n="3" verses="27"/>
+    <chapter n="4" verses="17"/>
+    <chapter n="5" verses="17"/>
+    <chapter n="6" verses="14"/>
+    <chapter n="7" verses="27"/>
+    <chapter n="8" verses="18"/>
+    <chapter n="9" verses="11"/>
+    <chapter n="10" verses="22"/>
+    <chapter n="11" verses="25"/>
+    <chapter n="12" verses="28"/>
+    <chapter n="13" verses="23"/>
+    <chapter n="14" verses="23"/>
+    <chapter n="15" verses="8"/>
+    <chapter n="16" verses="63"/>
+    <chapter n="17" verses="24"/>
+    <chapter n="18" verses="32"/>
+    <chapter n="19" verses="14"/>
+    <chapter n="20" verses="49"/>
+    <chapter n="21" verses="32"/>
+    <chapter n="22" verses="31"/>
+    <chapter n="23" verses="49"/>
+    <chapter n="24" verses="27"/>
+    <chapter n="25" verses="17"/>
+    <chapter n="26" verses="21"/>
+    <chapter n="27" verses="36"/>
+    <chapter n="28" verses="26"/>
+    <chapter n="29" verses="21"/>
+    <chapter n="30" verses="26"/>
+    <chapter n="31" verses="18"/>
+    <chapter n="32" verses="32"/>
+    <chapter n="33" verses="33"/>
+    <chapter n="34" verses="31"/>
+    <chapter n="35" verses="15"/>
+    <chapter n="36" verses="38"/>
+    <chapter n="37" verses="28"/>
+    <chapter n="38" verses="23"/>
+    <chapter n="39" verses="29"/>
+    <chapter n="40" verses="49"/>
+    <chapter n="41" verses="26"/>
+    <chapter n="42" verses="20"/>
+    <chapter n="43" verses="27"/>
+    <chapter n="44" verses="31"/>
+    <chapter n="45" verses="25"/>
+    <chapter n="46" verses="24"/>
+    <chapter n="47" verses="23"/>
+    <chapter n="48" verses="35"/>
+	</book>
+  <book name="Daniel">
+    <ccelID>27</ccelID>
+    <osisID>Dan</osisID>
+    <version></version>
+    <chapters>12</chapters>
+    <abbrev>Daniel</abbrev>
+    <abbrev>Dan</abbrev>
+    <abbrev>Da</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="21"/>
+    <chapter n="2" verses="49"/>
+    <chapter n="3" verses="30"/>
+    <chapter n="4" verses="37"/>
+    <chapter n="5" verses="31"/>
+    <chapter n="6" verses="28"/>
+    <chapter n="7" verses="28"/>
+    <chapter n="8" verses="27"/>
+    <chapter n="9" verses="27"/>
+    <chapter n="10" verses="21"/>
+    <chapter n="11" verses="45"/>
+    <chapter n="12" verses="13"/>
+  </book>
+  <book name="Hosea">
+    <ccelID>28</ccelID>
+    <osisID>Hos</osisID>
+    <version></version>
+    <chapters>14</chapters>
+    <abbrev>Hosea</abbrev>
+    <abbrev>Hos</abbrev>
+    <abbrev>Ho</abbrev>
+    <abbrev>Osee</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="11"/>
+    <chapter n="2" verses="23"/>
+    <chapter n="3" verses="5"/>
+    <chapter n="4" verses="19"/>
+    <chapter n="5" verses="15"/>
+    <chapter n="6" verses="11"/>
+    <chapter n="7" verses="16"/>
+    <chapter n="8" verses="14"/>
+    <chapter n="9" verses="17"/>
+    <chapter n="10" verses="15"/>
+    <chapter n="11" verses="12"/>
+    <chapter n="12" verses="14"/>
+    <chapter n="13" verses="16"/>
+    <chapter n="14" verses="9"/>
+  </book>
+  <book name="Joel">
+    <ccelID>29</ccelID>
+    <osisID>Joel</osisID>
+    <version></version>
+    <chapters>3</chapters>
+    <abbrev>Joel</abbrev>
+    <abbrev>Joe</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="20"/>
+    <chapter n="2" verses="32"/>
+    <chapter n="3" verses="21"/>
+  </book>
+  <book name="Amos">
+    <ccelID>30</ccelID>
+    <osisID>Amos</osisID>
+    <version></version>
+    <chapters>9</chapters>
+    <abbrev>Amos</abbrev>
+    <abbrev>Am</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="15"/>
+    <chapter n="2" verses="16"/>
+    <chapter n="3" verses="15"/>
+    <chapter n="4" verses="13"/>
+    <chapter n="5" verses="27"/>
+    <chapter n="6" verses="14"/>
+    <chapter n="7" verses="17"/>
+    <chapter n="8" verses="14"/>
+    <chapter n="9" verses="15"/>
+  </book>
+  <book name="Obadiah">
+    <ccelID>31</ccelID>
+    <osisID>Obad</osisID>
+    <version></version>
+    <chapters>1</chapters>
+    <abbrev>Obadiah</abbrev>
+    <abbrev>Obad</abbrev>
+    <abbrev>Oba</abbrev>
+    <abbrev>Ob</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="21"/>
+  </book>
+  <book name="Jonah">
+    <ccelID>32</ccelID>
+    <osisID>Jonah</osisID>
+    <version></version>
+    <chapters>4</chapters>
+    <abbrev>Jonah</abbrev>
+    <abbrev>Jona</abbrev>
+    <abbrev>Jon</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="17"/>
+    <chapter n="2" verses="10"/>
+    <chapter n="3" verses="10"/>
+    <chapter n="4" verses="11"/>
+  </book>
+  <book name="Micah">
+    <ccelID>33</ccelID>
+    <osisID>Mic</osisID>
+    <version></version>
+    <chapters>7</chapters>
+    <abbrev>Micah</abbrev>
+    <abbrev>Mic</abbrev>
+    <abbrev>Mi</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="16"/>
+    <chapter n="2" verses="13"/>
+    <chapter n="3" verses="12"/>
+    <chapter n="4" verses="13"/>
+    <chapter n="5" verses="15"/>
+    <chapter n="6" verses="16"/>
+    <chapter n="7" verses="20"/>
+  </book>
+  <book name="Nahum">
+    <ccelID>34</ccelID>
+    <osisID>Nah</osisID>
+    <version></version>
+    <chapters>3</chapters>
+    <abbrev>Nahum</abbrev>
+    <abbrev>Nah</abbrev>
+    <abbrev>Na</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="15"/>
+    <chapter n="2" verses="13"/>
+    <chapter n="3" verses="19"/>
+  </book>
+  <book name="Habakkuk">
+    <ccelID>35</ccelID>
+    <osisID>Hab</osisID>
+    <version></version>
+    <chapters>3</chapters>
+    <abbrev>Habakkuk</abbrev>
+    <abbrev>Habak</abbrev>
+    <abbrev>Hab</abbrev>
+    <abbrev>Ha</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="17"/>
+    <chapter n="2" verses="20"/>
+    <chapter n="3" verses="19"/>
+  </book>
+  <book name="Zephaniah">
+    <ccelID>36</ccelID>
+    <osisID>Zeph</osisID>
+    <version></version>
+    <chapters>3</chapters>
+    <abbrev>Zephaniah</abbrev>
+    <abbrev>Zeph</abbrev>
+    <abbrev>Zep</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="18"/>
+    <chapter n="2" verses="15"/>
+    <chapter n="3" verses="20"/>
+  </book>
+  <book name="Haggai">
+    <ccelID>37</ccelID>
+    <osisID>Hag</osisID>
+    <version></version>
+    <chapters>2</chapters>
+    <abbrev>Haggai</abbrev>
+    <abbrev>Hagg</abbrev>
+    <abbrev>Hag</abbrev>
+    <abbrev>Ha</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="15"/>
+    <chapter n="2" verses="23"/>
+  </book>
+  <book name="Zechariah">
+    <ccelID>38</ccelID>
+    <osisID>Zech</osisID>
+    <version></version>
+    <chapters>14</chapters>
+    <abbrev>Zechariah</abbrev>
+    <abbrev>Zech</abbrev>
+    <abbrev>Zec</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="21"/>
+    <chapter n="2" verses="13"/>
+    <chapter n="3" verses="10"/>
+    <chapter n="4" verses="14"/>
+    <chapter n="5" verses="11"/>
+    <chapter n="6" verses="15"/>
+    <chapter n="7" verses="14"/>
+    <chapter n="8" verses="23"/>
+    <chapter n="9" verses="17"/>
+    <chapter n="10" verses="12"/>
+    <chapter n="11" verses="17"/>
+    <chapter n="12" verses="14"/>
+    <chapter n="13" verses="9"/>
+    <chapter n="14" verses="21"/>
+  </book>
+  <book name="Malachi">
+    <ccelID>39</ccelID>
+    <osisID>Mal</osisID>
+    <version></version>
+    <chapters>4</chapters>
+    <abbrev>Malachi</abbrev>
+    <abbrev>Malach</abbrev>
+    <abbrev>Malac</abbrev>
+    <abbrev>Mal</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="14"/>
+    <chapter n="2" verses="17"/>
+    <chapter n="3" verses="18"/>
+    <chapter n="4" verses="6"/>
+  </book>
+  <book name="Matthew">
+    <ccelID>40</ccelID>
+    <osisID>Matt</osisID>
+    <version></version>
+    <chapters>28</chapters>
+    <abbrev>Matthew</abbrev>
+    <abbrev>Matth</abbrev>
+    <abbrev>Matt</abbrev>
+    <abbrev>Mat</abbrev>
+    <abbrev>Mt</abbrev>
+    <abbrev>St. Matt</abbrev>
+    <abbrev>St. Matthew</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="25"/>
+    <chapter n="2" verses="23"/>
+    <chapter n="3" verses="17"/>
+    <chapter n="4" verses="25"/>
+    <chapter n="5" verses="48"/>
+    <chapter n="6" verses="34"/>
+    <chapter n="7" verses="29"/>
+    <chapter n="8" verses="34"/>
+    <chapter n="9" verses="38"/>
+    <chapter n="10" verses="42"/>
+    <chapter n="11" verses="30"/>
+    <chapter n="12" verses="50"/>
+    <chapter n="13" verses="58"/>
+    <chapter n="14" verses="36"/>
+    <chapter n="15" verses="39"/>
+    <chapter n="16" verses="28"/>
+    <chapter n="17" verses="27"/>
+    <chapter n="18" verses="35"/>
+    <chapter n="19" verses="30"/>
+    <chapter n="20" verses="34"/>
+    <chapter n="21" verses="46"/>
+    <chapter n="22" verses="46"/>
+    <chapter n="23" verses="39"/>
+    <chapter n="24" verses="51"/>
+    <chapter n="25" verses="46"/>
+    <chapter n="26" verses="75"/>
+    <chapter n="27" verses="66"/>
+    <chapter n="28" verses="20"/>
+  </book>
+  <book name="Mark">
+    <ccelID>41</ccelID>
+    <osisID>Mark</osisID>
+    <version></version>
+    <chapters>16</chapters>
+    <abbrev>Mark</abbrev>
+    <abbrev>Mar</abbrev>
+    <abbrev>Mk</abbrev>
+    <abbrev>Mr</abbrev>
+    <abbrev>St. Mark</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="45"/>
+    <chapter n="2" verses="28"/>
+    <chapter n="3" verses="35"/>
+    <chapter n="4" verses="41"/>
+    <chapter n="5" verses="43"/>
+    <chapter n="6" verses="56"/>
+    <chapter n="7" verses="37"/>
+    <chapter n="8" verses="38"/>
+    <chapter n="9" verses="50"/>
+    <chapter n="10" verses="52"/>
+    <chapter n="11" verses="33"/>
+    <chapter n="12" verses="44"/>
+    <chapter n="13" verses="37"/>
+    <chapter n="14" verses="72"/>
+    <chapter n="15" verses="47"/>
+    <chapter n="16" verses="20"/>
+  </book>
+  <book name="Luke">
+    <ccelID>42</ccelID>
+    <osisID>Luke</osisID>
+    <version></version>
+    <chapters>24</chapters>
+    <abbrev>Luke</abbrev>
+    <abbrev>Luk</abbrev>
+    <abbrev>Lu</abbrev>
+    <abbrev>Lk</abbrev>
+    <abbrev>St. Luke</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="80"/>
+    <chapter n="2" verses="52"/>
+    <chapter n="3" verses="38"/>
+    <chapter n="4" verses="44"/>
+    <chapter n="5" verses="39"/>
+    <chapter n="6" verses="49"/>
+    <chapter n="7" verses="50"/>
+    <chapter n="8" verses="56"/>
+    <chapter n="9" verses="62"/>
+    <chapter n="10" verses="42"/>
+    <chapter n="11" verses="54"/>
+    <chapter n="12" verses="59"/>
+    <chapter n="13" verses="35"/>
+    <chapter n="14" verses="35"/>
+    <chapter n="15" verses="32"/>
+    <chapter n="16" verses="31"/>
+    <chapter n="17" verses="37"/>
+    <chapter n="18" verses="43"/>
+    <chapter n="19" verses="48"/>
+    <chapter n="20" verses="47"/>
+    <chapter n="21" verses="38"/>
+    <chapter n="22" verses="71"/>
+    <chapter n="23" verses="56"/>
+    <chapter n="24" verses="53"/>
+  </book>
+  <book name="John">
+    <ccelID>43</ccelID>
+    <osisID>John</osisID>
+    <version></version>
+    <chapters>21</chapters>
+    <abbrev>John</abbrev>
+    <abbrev>Joh</abbrev>
+    <abbrev>Jn</abbrev>
+    <abbrev>St. John</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="51"/>
+    <chapter n="2" verses="25"/>
+    <chapter n="3" verses="36"/>
+    <chapter n="4" verses="54"/>
+    <chapter n="5" verses="47"/>
+    <chapter n="6" verses="71"/>
+    <chapter n="7" verses="53"/>
+    <chapter n="8" verses="59"/>
+    <chapter n="9" verses="41"/>
+    <chapter n="10" verses="42"/>
+    <chapter n="11" verses="57"/>
+    <chapter n="12" verses="50"/>
+    <chapter n="13" verses="38"/>
+    <chapter n="14" verses="31"/>
+    <chapter n="15" verses="27"/>
+    <chapter n="16" verses="33"/>
+    <chapter n="17" verses="26"/>
+    <chapter n="18" verses="40"/>
+    <chapter n="19" verses="42"/>
+    <chapter n="20" verses="31"/>
+    <chapter n="21" verses="25"/>
+  </book>
+  <book name="Acts">
+    <ccelID>44</ccelID>
+    <osisID>Acts</osisID>
+    <version></version>
+    <chapters>28</chapters>
+    <abbrev>Acts</abbrev>
+    <abbrev>Act</abbrev>
+    <abbrev>Ac</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="26"/>
+    <chapter n="2" verses="47"/>
+    <chapter n="3" verses="26"/>
+    <chapter n="4" verses="37"/>
+    <chapter n="5" verses="42"/>
+    <chapter n="6" verses="15"/>
+    <chapter n="7" verses="60"/>
+    <chapter n="8" verses="40"/>
+    <chapter n="9" verses="43"/>
+    <chapter n="10" verses="48"/>
+    <chapter n="11" verses="30"/>
+    <chapter n="12" verses="25"/>
+    <chapter n="13" verses="52"/>
+    <chapter n="14" verses="28"/>
+    <chapter n="15" verses="41"/>
+    <chapter n="16" verses="40"/>
+    <chapter n="17" verses="34"/>
+    <chapter n="18" verses="28"/>
+    <chapter n="19" verses="41"/>
+    <chapter n="20" verses="38"/>
+    <chapter n="21" verses="40"/>
+    <chapter n="22" verses="30"/>
+    <chapter n="23" verses="35"/>
+    <chapter n="24" verses="27"/>
+    <chapter n="25" verses="27"/>
+    <chapter n="26" verses="32"/>
+    <chapter n="27" verses="44"/>
+    <chapter n="28" verses="31"/>
+  </book>
+  <book name="Romans">
+    <ccelID>45</ccelID>
+    <osisID>Rom</osisID>
+    <version></version>
+    <chapters>16</chapters>
+    <abbrev>Romans</abbrev>
+    <abbrev>Rom</abbrev>
+    <abbrev>Ro</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="32"/>
+    <chapter n="2" verses="29"/>
+    <chapter n="3" verses="31"/>
+    <chapter n="4" verses="25"/>
+    <chapter n="5" verses="21"/>
+    <chapter n="6" verses="23"/>
+    <chapter n="7" verses="25"/>
+    <chapter n="8" verses="39"/>
+    <chapter n="9" verses="33"/>
+    <chapter n="10" verses="21"/>
+    <chapter n="11" verses="36"/>
+    <chapter n="12" verses="21"/>
+    <chapter n="13" verses="14"/>
+    <chapter n="14" verses="23"/>
+    <chapter n="15" verses="33"/>
+    <chapter n="16" verses="27"/>
+  </book>
+  <book name="1 Corinthians">
+    <ccelID>46</ccelID>
+    <osisID>1Cor</osisID>
+    <version></version>
+    <chapters>16</chapters>
+    <abbrev>1Corinthians</abbrev>
+    <abbrev>1Corinth</abbrev>
+    <abbrev>1Corin</abbrev>
+    <abbrev>1Cor</abbrev>
+    <abbrev>1Co</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="31"/>
+    <chapter n="2" verses="16"/>
+    <chapter n="3" verses="23"/>
+    <chapter n="4" verses="21"/>
+    <chapter n="5" verses="13"/>
+    <chapter n="6" verses="20"/>
+    <chapter n="7" verses="40"/>
+    <chapter n="8" verses="13"/>
+    <chapter n="9" verses="27"/>
+    <chapter n="10" verses="33"/>
+    <chapter n="11" verses="34"/>
+    <chapter n="12" verses="31"/>
+    <chapter n="13" verses="13"/>
+    <chapter n="14" verses="40"/>
+    <chapter n="15" verses="58"/>
+    <chapter n="16" verses="24"/>
+  </book>
+  <book name="2 Corinthians">
+    <ccelID>47</ccelID>
+    <osisID>2Cor</osisID>
+    <version></version>
+    <chapters>13</chapters>
+    <abbrev>2Corinthians</abbrev>
+    <abbrev>2Corinth</abbrev>
+    <abbrev>2Corin</abbrev>
+    <abbrev>2Cor</abbrev>
+    <abbrev>2Co</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="24"/>
+    <chapter n="2" verses="17"/>
+    <chapter n="3" verses="18"/>
+    <chapter n="4" verses="18"/>
+    <chapter n="5" verses="21"/>
+    <chapter n="6" verses="18"/>
+    <chapter n="7" verses="16"/>
+    <chapter n="8" verses="24"/>
+    <chapter n="9" verses="15"/>
+    <chapter n="10" verses="18"/>
+    <chapter n="11" verses="33"/>
+    <chapter n="12" verses="21"/>
+    <chapter n="13" verses="14"/>
+  </book>
+  <book name="Galatians">
+    <ccelID>48</ccelID>
+    <osisID>Gal</osisID>
+    <version></version>
+    <chapters>6</chapters>
+    <abbrev>Galatians</abbrev>
+    <abbrev>Galat</abbrev>
+    <abbrev>Ga</abbrev>
+    <abbrev>Gal</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="24"/>
+    <chapter n="2" verses="21"/>
+    <chapter n="3" verses="29"/>
+    <chapter n="4" verses="31"/>
+    <chapter n="5" verses="26"/>
+    <chapter n="6" verses="18"/>
+  </book>
+  <book name="Ephesians">
+    <ccelID>49</ccelID>
+    <osisID>Eph</osisID>
+    <version></version>
+    <chapters>6</chapters>
+    <abbrev>Ephesians</abbrev>
+    <abbrev>Ephes</abbrev>
+    <abbrev>Eph</abbrev>
+    <abbrev>Ep</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="23"/>
+    <chapter n="2" verses="22"/>
+    <chapter n="3" verses="21"/>
+    <chapter n="4" verses="32"/>
+    <chapter n="5" verses="33"/>
+    <chapter n="6" verses="24"/>
+  </book>
+  <book name="Philippians">
+    <ccelID>50</ccelID>
+    <osisID>Phil</osisID>
+    <version></version>
+    <chapters>4</chapters>
+    <abbrev>Philippians</abbrev>
+    <abbrev>Philipp</abbrev>
+    <abbrev>Philip</abbrev>
+    <abbrev>Phili</abbrev>
+    <abbrev>Phil</abbrev>
+    <abbrev>Phi</abbrev>
+    <abbrev>Php</abbrev>
+    <abbrev>Ph</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="30"/>
+    <chapter n="2" verses="30"/>
+    <chapter n="3" verses="21"/>
+    <chapter n="4" verses="23"/>
+  </book>
+  <book name="Colossians">
+    <ccelID>51</ccelID>
+    <osisID>Col</osisID>
+    <version></version>
+    <chapters>4</chapters>
+    <abbrev>Colossians</abbrev>
+    <abbrev>Coloss</abbrev>
+    <abbrev>Colos</abbrev>
+    <abbrev>Colo</abbrev>
+    <abbrev>Col</abbrev>
+    <abbrev>Co</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="29"/>
+    <chapter n="2" verses="23"/>
+    <chapter n="3" verses="25"/>
+    <chapter n="4" verses="18"/>
+  </book>
+  <book name="1 Thessalonians">
+    <ccelID>52</ccelID>
+    <osisID>1Thess</osisID>
+    <version></version>
+    <chapters>5</chapters>
+    <abbrev>1Thessalonians</abbrev>
+    <abbrev>1Thess</abbrev>
+    <abbrev>1Thes</abbrev>
+    <abbrev>1The</abbrev>
+    <abbrev>1Th</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="10"/>
+    <chapter n="2" verses="20"/>
+    <chapter n="3" verses="13"/>
+    <chapter n="4" verses="18"/>
+    <chapter n="5" verses="28"/>
+  </book>
+  <book name="2 Thessalonians">
+    <ccelID>53</ccelID>
+    <osisID>2Thess</osisID>
+    <version></version>
+    <chapters>3</chapters>
+    <abbrev>2Thessalonians</abbrev>
+    <abbrev>2Thess</abbrev>
+    <abbrev>2Thes</abbrev>
+    <abbrev>2The</abbrev>
+    <abbrev>2Th</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="12"/>
+    <chapter n="2" verses="17"/>
+    <chapter n="3" verses="18"/>
+  </book>
+  <book name="1 Timothy">
+    <ccelID>54</ccelID>
+    <osisID>1Tim</osisID>
+    <version></version>
+    <chapters>6</chapters>
+    <abbrev>1Timothy</abbrev>
+    <abbrev>1Tim</abbrev>
+    <abbrev>1Ti</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="20"/>
+    <chapter n="2" verses="15"/>
+    <chapter n="3" verses="16"/>
+    <chapter n="4" verses="16"/>
+    <chapter n="5" verses="25"/>
+    <chapter n="6" verses="21"/>
+  </book>
+  <book name="2 Timothy">
+    <ccelID>55</ccelID>
+    <osisID>2Tim</osisID>
+    <version></version>
+    <chapters>4</chapters>
+    <abbrev>2Timothy</abbrev>
+    <abbrev>2Tim</abbrev>
+    <abbrev>2Ti</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="18"/>
+    <chapter n="2" verses="26"/>
+    <chapter n="3" verses="17"/>
+    <chapter n="4" verses="22"/>
+  </book>
+  <book name="Titus">
+    <ccelID>56</ccelID>
+    <osisID>Titus</osisID>
+    <version></version>
+    <chapters>3</chapters>
+    <abbrev>Titus</abbrev>
+    <abbrev>Titu</abbrev>
+    <abbrev>Tit</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="16"/>
+    <chapter n="2" verses="15"/>
+    <chapter n="3" verses="15"/>
+  </book>
+  <book name="Philemon">
+    <ccelID>57</ccelID>
+    <osisID>Phlm</osisID>
+    <version></version>
+    <chapters>1</chapters>
+    <abbrev>Philemon</abbrev>
+    <abbrev>Philem</abbrev>
+    <abbrev>Phile</abbrev>
+    <abbrev>Phlm</abbrev>
+    <abbrev>Phm</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="25"/>
+  </book>
+  <book name="Hebrews">
+    <ccelID>58</ccelID>
+    <osisID>Heb</osisID>
+    <version></version>
+    <chapters>13</chapters>
+    <abbrev>Hebrews</abbrev>
+    <abbrev>Hebr</abbrev>
+    <abbrev>Heb</abbrev>
+    <abbrev>He</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="14"/>
+    <chapter n="2" verses="18"/>
+    <chapter n="3" verses="19"/>
+    <chapter n="4" verses="16"/>
+    <chapter n="5" verses="14"/>
+    <chapter n="6" verses="20"/>
+    <chapter n="7" verses="28"/>
+    <chapter n="8" verses="13"/>
+    <chapter n="9" verses="28"/>
+    <chapter n="10" verses="39"/>
+    <chapter n="11" verses="40"/>
+    <chapter n="12" verses="29"/>
+    <chapter n="13" verses="25"/>
+  </book>
+  <book name="James">
+    <ccelID>59</ccelID>
+    <osisID>Jas</osisID>
+    <version></version>
+    <chapters>5</chapters>
+    <abbrev>James</abbrev>
+	<abbrev>Ja</abbrev>
+    <abbrev>Jas</abbrev>
+    <abbrev>Jam</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="27"/>
+    <chapter n="2" verses="26"/>
+    <chapter n="3" verses="18"/>
+    <chapter n="4" verses="17"/>
+    <chapter n="5" verses="20"/>
+  </book>
+  <book name="1 Peter">
+    <ccelID>60</ccelID>
+    <osisID>1Pet</osisID>
+    <chapters>5</chapters>
+    <version></version>
+    <abbrev>1Peter</abbrev>
+    <abbrev>1Pet</abbrev>
+    <abbrev>1Pe</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="25"/>
+    <chapter n="2" verses="25"/>
+    <chapter n="3" verses="22"/>
+    <chapter n="4" verses="19"/>
+    <chapter n="5" verses="14"/>
+  </book>
+  <book name="2 Peter">
+    <ccelID>61</ccelID>
+    <osisID>2Pet</osisID>
+    <version></version>
+    <chapters>3</chapters>
+    <abbrev>2Peter</abbrev>
+    <abbrev>2Pet</abbrev>
+    <abbrev>2Pe</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="21"/>
+    <chapter n="2" verses="22"/>
+    <chapter n="3" verses="18"/>
+  </book>
+  <book name="1 John">
+    <ccelID>62</ccelID>
+    <osisID>1John</osisID>
+    <version></version>
+    <chapters>5</chapters>
+    <abbrev>1John</abbrev>
+    <abbrev>1Joh</abbrev>
+    <abbrev>1Jo</abbrev>
+    <abbrev>1Jn</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="10"/>
+    <chapter n="2" verses="29"/>
+    <chapter n="3" verses="24"/>
+    <chapter n="4" verses="21"/>
+    <chapter n="5" verses="21"/>
+  </book>
+  <book name="2 John">
+    <ccelID>63</ccelID>
+    <osisID>2John</osisID>
+    <version></version>
+    <chapters>1</chapters>
+    <abbrev>2John</abbrev>
+    <abbrev>2Joh</abbrev>
+    <abbrev>2Jo</abbrev>
+    <abbrev>2Jn</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="13"/>
+  </book>
+  <book name="3 John">
+    <ccelID>64</ccelID>
+    <osisID>3John</osisID>
+    <version></version>
+    <chapters>1</chapters>
+    <abbrev>3John</abbrev>
+    <abbrev>3Joh</abbrev>
+    <abbrev>3Jo</abbrev>
+    <abbrev>3Jn</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="14"/>
+  </book>
+  <book name="Jude">
+    <ccelID>65</ccelID>
+    <osisID>Jude</osisID>
+    <version></version>
+    <chapters>1</chapters>
+    <abbrev>Jude</abbrev>
+    <abbrev>Ju</abbrev>
+    <firstChap>1</firstChap>
+    <chapter n="1" verses="25"/>
+  </book>
+  <book name="Revelation">
+    <ccelID>66</ccelID>
+    <osisID>Rev</osisID>
+    <version></version>
+    <chapters>22</chapters>
+    <abbrev>Revelation</abbrev>
+    <abbrev>Revel</abbrev>
+    <abbrev>Rev</abbrev>
+    <abbrev>Re</abbrev>
+    <firstChap>1</firstChap>
+    <abbrev>Apocalypse</abbrev>
+    <abbrev>Apocal</abbrev>
+    <abbrev>Apoc</abbrev>
+    <abbrev>Ap</abbrev>
+    <chapter n="1" verses="20"/>
+    <chapter n="2" verses="29"/>
+    <chapter n="3" verses="22"/>
+    <chapter n="4" verses="11"/>
+    <chapter n="5" verses="14"/>
+    <chapter n="6" verses="17"/>
+    <chapter n="7" verses="17"/>
+    <chapter n="8" verses="13"/>
+    <chapter n="9" verses="21"/>
+    <chapter n="10" verses="11"/>
+    <chapter n="11" verses="19"/>
+    <chapter n="12" verses="17"/>
+    <chapter n="13" verses="18"/>
+    <chapter n="14" verses="20"/>
+    <chapter n="15" verses="8"/>
+    <chapter n="16" verses="21"/>
+    <chapter n="17" verses="18"/>
+    <chapter n="18" verses="24"/>
+    <chapter n="19" verses="21"/>
+    <chapter n="20" verses="15"/>
+    <chapter n="21" verses="27"/>
+	<chapter n="22" verses="21"/>
+  </book>
+</books>

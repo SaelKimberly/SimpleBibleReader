@@ -1,0 +1,26 @@
+/*
+    - Primarily used for displays like credits, about, error messages etc.
+*/
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: lightgray;
+    background: black;
+}
+
+td {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a {
+    background: black none repeat scroll 0 0;
+    color: lightgray;
+    outline: medium none;
+    //padding: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: default;
+}

@@ -1,0 +1,31 @@
+File
+- Open Bible
+- Save Bible
+- Export Bible
+- Open Book
+- Export Book
+- Open Commentary
+- Export Commentary
+- Open Dictionary
+- Export Dictionary
+- Batch Convert
+- Right to Left
+- Exit
+Edit
+- Find
+Layout
+- Books
+- Bible
+- Commentary
+- Dictionary
+- Search
+Settings
+- Preferences
+- Plugins
+- Localizations
+Help
+- Website
+- Release Notes
+- Credits
+- About
+

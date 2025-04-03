@@ -1,0 +1,94 @@
+/*
+    - Used for dictionary display
+*/
+
+body {
+    font-family: "@FontFamilyDICT@";
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+a.linear {
+    color: black;
+    display: inline;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: default;
+}
+
+a.linear:hover {
+    background: #CFECEC;
+    border: 1px solid #677676;
+    cursor: default;
+}
+
+a.para {
+    color: black;
+    display: inline;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: default;
+}
+
+    a.para:hover {
+        background: #CFECEC;
+        border: 1px solid #677676;
+        cursor: default;
+    }
+
+a.dict {
+    color: black;
+    display: inline;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: default;
+}
+
+    a.dict:hover {
+        background: #CFECEC;
+        border: 1px solid #677676;
+        cursor: default;
+    }
+
+a.bible {
+    color: black;
+    display: inline;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: default;
+}
+
+    a.bible:hover {
+        background: #CFECEC;
+        border: 1px solid #677676;
+        cursor: default;
+    }
+
+.lexicon {
+    color: blue;
+    display: inline;
+    text-decoration: none;
+    cursor: help;
+}
+
+pre {
+    word-wrap: break-word;
+    white-space: normal;
+    font-family: "@FontFamilyDICT@";
+}
+
+textarea {
+    /* resize: none; */
+    border: 1px solid #999999;
+    width: 100%;
+    margin: 5px 0;
+    padding: 3px;
+}

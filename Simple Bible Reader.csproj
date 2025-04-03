@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{007C7BB0-1319-475E-B54E-3BB2BAEBFD23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Simple_Bible_Reader.ConsoleApplication</StartupObject>
+    <RootNamespace>Simple_Bible_Reader</RootNamespace>
+    <AssemblyName>Simple_Bible_Reader</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <SupportUrl>https://trumpet-call.org</SupportUrl>
+    <ProductName>Simple Bible Reader</ProductName>
+    <PublisherName>Felix Immanuel</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>4.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+    <Optimize>true</Optimize>
+    <DefineConstants>DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+    <DefineConstants>
+    </DefineConstants>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bible-book.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Internet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5119B72F167D886E3982FB61DBB3D50B04F4C4DA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <NoWarn>1591,660,661</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>1591,660,661</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSSword, Version=1.0.8615.16041, Culture=neutral, PublicKeyToken=01e247aef35acdf9, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\CSSword.dll</HintPath>
+    </Reference>
+    <Reference Include="DarkMode, Version=1.0.2.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\DarkMode.dll</HintPath>
+    </Reference>
+    <Reference Include="DarkUI, Version=2.0.1.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\DarkUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.2957.106, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.2957.106\lib\net462\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.2957.106, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.2957.106\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.2957.106, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.2957.106\lib\net462\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BatchModeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchModeFrm.Designer.cs">
+      <DependentUpon>BatchModeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BibleFormat.cs" />
+    <Compile Include="BibleFormats\BBLIBibleFormat.cs" />
+    <Compile Include="BibleFormats\EasySlidesBibleFormat.cs" />
+    <Compile Include="BibleFormats\HeavenWorldBibleFormat.cs" />
+    <Compile Include="BibleFormats\LOGOSBibleFormat.cs" />
+    <Compile Include="BibleFormats\MP3BibleFormat.cs" />
+    <Compile Include="BibleFormats\SwordSearcherBibleFormat.cs" />
+    <Compile Include="BibleFormats\MyBibleBibleFormat.cs" />
+    <Compile Include="BibleFormats\OnlineBibleFormat.cs" />
+    <Compile Include="BibleFormats\PDBBibleFormat.cs" />
+    <Compile Include="BibleFormats\VerseVIEWBibleFormat.cs" />
+    <Compile Include="BookFormat.cs" />
+    <Compile Include="BookFormats\BibleAnalyzerBookFormat.cs" />
+    <Compile Include="BookFormats\MySword4AndroidBookFormat.cs" />
+    <Compile Include="BookFormats\STEPBookFormat.cs" />
+    <Compile Include="BookFormats\SwordBookFormat.cs" />
+    <Compile Include="BookFormats\SwordSearcherBookFormat.cs" />
+    <Compile Include="BookFormats\TheWordBookFormat.cs" />
+    <Compile Include="BookFormats\TOPBookFormat.cs" />
+    <Compile Include="BookFormats\REFIBookFormat.cs" />
+    <Compile Include="BookFormats\TOPXBookFormat.cs" />
+    <Compile Include="BookFormats\XMLBookFormat.cs" />
+    <Compile Include="ChapterHeadingUtil.cs" />
+    <Compile Include="FindWebBrowserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindWebBrowserControl.Designer.cs">
+      <DependentUpon>FindWebBrowserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins2Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plugins2Frm.Designer.cs">
+      <DependentUpon>Plugins2Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RendererWebBrowserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RendererWebBrowserControl.Designer.cs">
+      <DependentUpon>RendererWebBrowserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Verse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Verse.Designer.cs">
+      <DependentUpon>Verse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comment.Designer.cs">
+      <DependentUpon>Comment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommentaryFormat.cs" />
+    <Compile Include="BibleFormats\BBLBibleFormat.cs" />
+    <Compile Include="BibleFormats\BBLXBibleFormat.cs" />
+    <Compile Include="BibleFormats\BibleAnalyzerBibleFormat.cs" />
+    <Compile Include="BibleFormats\BibleCompanionBibleFormat.cs" />
+    <Compile Include="BibleFormats\GBFBibleFormat.cs" />
+    <Compile Include="BibleFormats\GoBibleFormat.cs" />
+    <Compile Include="BibleFormats\MySword4AndroidBibleFormat.cs" />
+    <Compile Include="BibleFormats\TheWordBibleFormat.cs" />
+    <Compile Include="BibleFormats\OpenLPBibleFormat.cs" />
+    <Compile Include="BibleFormats\OpenSongBibleFormat.cs" />
+    <Compile Include="BibleFormats\OSISBibleFormat.cs" />
+    <Compile Include="BibleFormats\SwordBibleFormat.cs" />
+    <Compile Include="BibleFormats\ThMLBibleFormat.cs" />
+    <Compile Include="BibleFormats\UnboundBibleFormat.cs" />
+    <Compile Include="BibleFormats\USFXBibleFormat.cs" />
+    <Compile Include="BibleFormats\VPLBibleFormat.cs" />
+    <Compile Include="BibleFormats\XSEMBibleFormat.cs" />
+    <Compile Include="CommentaryFormats\BibleAnalyzerCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\CMTCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\CMTICommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\CMTXCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\SwordSearcherCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\MyBibleCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\MySword4AndroidCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\OnlineBibleCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\SwordCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\TheWordCommentaryFormat.cs" />
+    <Compile Include="CommentaryFormats\ZefaniaCommentaryFormat.cs" />
+    <Compile Include="ConsoleApplication.cs" />
+    <Compile Include="ConsoleUtil.cs" />
+    <Compile Include="DictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\BibleAnalyzerDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\DCTDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\DCTIDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\DCTXDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\SwordSearcherDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\MyBibleDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\MySword4AndroidDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\SwordDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\TheWordDictionaryFormat.cs" />
+    <Compile Include="DictionaryFormats\ZefaniaDictionaryFormat.cs" />
+    <Compile Include="FindWebView2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindWebView2.Designer.cs">
+      <DependentUpon>FindWebView2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FontFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FontFrm.Designer.cs">
+      <DependentUpon>FontFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormatUtil.cs" />
+    <Compile Include="GlobalMemory.cs" />
+    <Compile Include="HeavenWorld\HeavenWorld.cs" />
+    <Compile Include="HeavenWorld\LightningHeader.cs" />
+    <Compile Include="HeavenWorld\VerseContentRaw.cs" />
+    <Compile Include="Ionic.Zlib\CRC32.cs" />
+    <Compile Include="Ionic.Zlib\Deflate.cs" />
+    <Compile Include="Ionic.Zlib\DeflateStream.cs" />
+    <Compile Include="Ionic.Zlib\GZipStream.cs" />
+    <Compile Include="Ionic.Zlib\Inflate.cs" />
+    <Compile Include="Ionic.Zlib\InfTree.cs" />
+    <Compile Include="Ionic.Zlib\ParallelDeflateOutputStream.cs" />
+    <Compile Include="Ionic.Zlib\Tree.cs" />
+    <Compile Include="Ionic.Zlib\Zlib.cs" />
+    <Compile Include="Ionic.Zlib\ZlibBaseStream.cs" />
+    <Compile Include="Ionic.Zlib\ZlibCodec.cs" />
+    <Compile Include="Ionic.Zlib\ZlibConstants.cs" />
+    <Compile Include="Ionic.Zlib\ZlibStream.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="SbrInfo.cs" />
+    <Compile Include="SwordLookup.cs" />
+    <Compile Include="LZSS.cs" />
+    <Compile Include="MirrorTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PalmBibleExport\BibleChecker.cs" />
+    <Compile Include="PalmBibleExport\BibleDoc.cs" />
+    <Compile Include="PalmBibleExport\Book.cs" />
+    <Compile Include="PalmBibleExport\BookIndexRecord.cs" />
+    <Compile Include="PalmBibleExport\BookRecord.cs" />
+    <Compile Include="PalmBibleExport\BookRecords.cs" />
+    <Compile Include="PalmBibleExport\ByteBuffer.cs" />
+    <Compile Include="PalmBibleExport\Chapter.cs" />
+    <Compile Include="PalmBibleExport\CompressFilteredNode.cs" />
+    <Compile Include="PalmBibleExport\CompressNode.cs" />
+    <Compile Include="PalmBibleExport\Compressor.cs" />
+    <Compile Include="PalmBibleExport\MyBinaryWriter.cs" />
+    <Compile Include="PalmBibleExport\Parser.cs" />
+    <Compile Include="PalmBibleExport\ParserException.cs" />
+    <Compile Include="PalmBibleExport\ParserInfo.cs" />
+    <Compile Include="PalmBibleExport\PDBDoc.cs" />
+    <Compile Include="PalmBibleExport\PDBFile.cs" />
+    <Compile Include="PalmBibleExport\PDBRecord.cs" />
+    <Compile Include="PalmBibleExport\ShortShifter.cs" />
+    <Compile Include="PalmBibleExport\Tag.cs" />
+    <Compile Include="PalmBibleExport\Token.cs" />
+    <Compile Include="PalmBibleExport\Tokenizer.cs" />
+    <Compile Include="PalmBibleExport\TreeNode.cs" />
+    <Compile Include="PalmBibleExport\Verse.cs" />
+    <Compile Include="PalmBibleExport\VersionInfoRecord.cs" />
+    <Compile Include="PalmBibleExport\WordIndexRecord.cs" />
+    <Compile Include="PalmBibleExport\WordRecord.cs" />
+    <Compile Include="PalmBibleExport\WordRecorder.cs" />
+    <Compile Include="PalmBibleExport\WordRecords.cs" />
+    <Compile Include="PalmBiblePlus\BiblePlusPDB.cs" />
+    <Compile Include="PalmBiblePlus\BitVector.cs" />
+    <Compile Include="PalmBiblePlus\BookInfo.cs" />
+    <Compile Include="PalmBiblePlus\EncodingTable.cs" />
+    <Compile Include="PalmBiblePlus\MyBinaryReader.cs" />
+    <Compile Include="PalmBiblePlus\MyStringTokenizer.cs" />
+    <Compile Include="PalmBiblePlus\PDBAccess.cs" />
+    <Compile Include="PalmBiblePlus\PDBDataStream.cs" />
+    <Compile Include="PalmBiblePlus\PDBFileStream.cs" />
+    <Compile Include="PalmBiblePlus\PDBHeader.cs" />
+    <Compile Include="PalmBiblePlus\PDBRecord.cs" />
+    <Compile Include="PalmBiblePlus\Util.cs" />
+    <Compile Include="Passwords.cs" />
+    <Compile Include="PluginProcessFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PluginProcessFrm.Designer.cs">
+      <DependentUpon>PluginProcessFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferencesFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreferencesFrm.Designer.cs">
+      <DependentUpon>PreferencesFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertiesFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertiesFrm.Designer.cs">
+      <DependentUpon>PropertiesFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedTextUtil.cs" />
+    <Compile Include="RtfPipe\Foundation\BinaryEncoding.cs" />
+    <Compile Include="RtfPipe\Foundation\HashTool.cs" />
+    <Compile Include="RtfPipe\Foundation\HexBuffer.cs" />
+    <Compile Include="RtfPipe\Foundation\IRtfReader.cs" />
+    <Compile Include="RtfPipe\Foundation\IValueBuffer.cs" />
+    <Compile Include="RtfPipe\Foundation\NamedCodePage.cs" />
+    <Compile Include="RtfPipe\Foundation\ParagraphTab.cs" />
+    <Compile Include="RtfPipe\Foundation\RtfStreamReader.cs" />
+    <Compile Include="RtfPipe\Foundation\StringBuffer.cs" />
+    <Compile Include="RtfPipe\Foundation\TextEncoding.cs" />
+    <Compile Include="RtfPipe\Foundation\Utils.cs" />
+    <Compile Include="RtfPipe\Html\CssString.cs" />
+    <Compile Include="RtfPipe\Html\HtmlTag.cs" />
+    <Compile Include="RtfPipe\Html\HtmlTextWriter.cs" />
+    <Compile Include="RtfPipe\Html\HtmlVisitor.cs" />
+    <Compile Include="RtfPipe\Model\Anchor.cs" />
+    <Compile Include="RtfPipe\Model\AnchorType.cs" />
+    <Compile Include="RtfPipe\Model\BorderToken.cs" />
+    <Compile Include="RtfPipe\Model\Builder.cs" />
+    <Compile Include="RtfPipe\Model\CellToken.cs" />
+    <Compile Include="RtfPipe\Model\Element.cs" />
+    <Compile Include="RtfPipe\Model\ElementType.cs" />
+    <Compile Include="RtfPipe\Model\FieldParser.cs" />
+    <Compile Include="RtfPipe\Model\FieldType.cs" />
+    <Compile Include="RtfPipe\Model\HorizontalRule.cs" />
+    <Compile Include="RtfPipe\Model\HyperlinkToken.cs" />
+    <Compile Include="RtfPipe\Model\INodeVisitor.cs" />
+    <Compile Include="RtfPipe\Model\Node.cs" />
+    <Compile Include="RtfPipe\Model\Picture.cs" />
+    <Compile Include="RtfPipe\Model\RawBuilder.cs" />
+    <Compile Include="RtfPipe\Model\RtfHtml.cs" />
+    <Compile Include="RtfPipe\Model\Run.cs" />
+    <Compile Include="RtfPipe\Model\Shape.cs" />
+    <Compile Include="RtfPipe\Model\StyleList.cs" />
+    <Compile Include="RtfPipe\MyApp.cs" />
+    <Compile Include="RtfPipe\Parser.cs" />
+    <Compile Include="RtfPipe\Parser.Mapping.cs" />
+    <Compile Include="RtfPipe\Rtf.cs" />
+    <Compile Include="RtfPipe\RtfHtmlSettings.cs" />
+    <Compile Include="RtfPipe\RtfSource.cs" />
+    <Compile Include="RtfPipe\Style\BorderPosition.cs" />
+    <Compile Include="RtfPipe\Style\BorderStyle.cs" />
+    <Compile Include="RtfPipe\Style\CellWidthUnit.cs" />
+    <Compile Include="RtfPipe\Style\ColorValue.cs" />
+    <Compile Include="RtfPipe\Style\Document.cs" />
+    <Compile Include="RtfPipe\Style\Font.cs" />
+    <Compile Include="RtfPipe\Style\FontFamilyCategory.cs" />
+    <Compile Include="RtfPipe\Style\FontPitch.cs" />
+    <Compile Include="RtfPipe\Style\HtmlEncapsulation.cs" />
+    <Compile Include="RtfPipe\Style\ListLevelDefinition.cs" />
+    <Compile Include="RtfPipe\Style\ListStyle.cs" />
+    <Compile Include="RtfPipe\Style\ListStyleReference.cs" />
+    <Compile Include="RtfPipe\Style\NumberingType.cs" />
+    <Compile Include="RtfPipe\Style\ShapeType.cs" />
+    <Compile Include="RtfPipe\Style\TextAlignment.cs" />
+    <Compile Include="RtfPipe\Style\UnitType.cs" />
+    <Compile Include="RtfPipe\Style\UnitValue.cs" />
+    <Compile Include="RtfPipe\Style\VerticalAlignment.cs" />
+    <Compile Include="RtfPipe\Style\WritingMode.cs" />
+    <Compile Include="RtfPipe\Tokens\BinaryToken.cs" />
+    <Compile Include="RtfPipe\Tokens\ControlTag.cs" />
+    <Compile Include="RtfPipe\Tokens\ControlWord.cs" />
+    <Compile Include="RtfPipe\Tokens\GenericTag.cs" />
+    <Compile Include="RtfPipe\Tokens\GenericWord.cs" />
+    <Compile Include="RtfPipe\Tokens\Group.cs" />
+    <Compile Include="RtfPipe\Tokens\GroupToken.cs" />
+    <Compile Include="RtfPipe\Tokens\IToken.cs" />
+    <Compile Include="RtfPipe\Tokens\IWord.cs" />
+    <Compile Include="RtfPipe\Tokens\TextToken.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.BorderShading.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.CharacterFormatting.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Color.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.DocumentInfo.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Fields.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Fonts.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Misc.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Numbering.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.PageSetup.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.ParagraphFormatting.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Picture.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.SectionFormatting.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Shape.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Stylesheet.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Table.cs" />
+    <Compile Include="RtfPipe\Tokens\Tokens.Tabs.cs" />
+    <Compile Include="RtfPipe\Tokens\TokenType.cs" />
+    <Compile Include="SCOP.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RendererWebView2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RendererWebView2.Designer.cs">
+      <DependentUpon>RendererWebView2.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BibleFormats\ZefaniaBibleFormat.cs" />
+    <Compile Include="SpeechUtil.cs" />
+    <Compile Include="SQLiteBulkInsert.cs" />
+    <Compile Include="SwordVersification.cs" />
+    <Compile Include="Sword\BibleNames.cs" />
+    <Compile Include="Sword\ConfigEntry.cs" />
+    <Compile Include="Sword\ConfigEntryTable.cs" />
+    <Compile Include="Sword\ConfigEntryType.cs" />
+    <Compile Include="Sword\DailyPlans.cs" />
+    <Compile Include="Sword\javaprops\JavaProperties.cs" />
+    <Compile Include="Sword\javaprops\JavaPropertyReader.cs" />
+    <Compile Include="Sword\Language.cs" />
+    <Compile Include="Sword\Languages.cs" />
+    <Compile Include="Sword\reader\BibleNoteReader.cs" />
+    <Compile Include="Sword\reader\BibleTextReader.cs" />
+    <Compile Include="Sword\reader\BibleZtextReader.cs" />
+    <Compile Include="Sword\reader\CommentZtextReader.cs" />
+    <Compile Include="Sword\reader\IBrowserTextSource.cs" />
+    <Compile Include="Sword\SwordBookMetaData.cs" />
+    <Compile Include="Sword\writer\BibleZtextWriter.cs" />
+    <Compile Include="Themes.cs" />
+    <Compile Include="Twofish.cs" />
+    <Compile Include="Unidecode\Characters.cs" />
+    <Compile Include="Unidecode\Unidecoder.cs" />
+    <Compile Include="Win32NativeCalls.cs" />
+    <Compile Include="zip2\Checksums\Adler32.cs" />
+    <Compile Include="zip2\Checksums\CRC32.cs" />
+    <Compile Include="zip2\Checksums\IChecksum.cs" />
+    <Compile Include="zip2\Checksums\StrangeCRC.cs" />
+    <Compile Include="zip2\Core\FileSystemScanner.cs" />
+    <Compile Include="zip2\Core\INameTransform.cs" />
+    <Compile Include="zip2\Core\IScanFilter.cs" />
+    <Compile Include="zip2\Core\NameFilter.cs" />
+    <Compile Include="zip2\Core\PathFilter.cs" />
+    <Compile Include="zip2\Core\StreamUtils.cs" />
+    <Compile Include="zip2\Core\WindowsPathUtils.cs" />
+    <Compile Include="zip2\GZip\GZIPConstants.cs" />
+    <Compile Include="zip2\GZip\GZipException.cs" />
+    <Compile Include="zip2\GZip\GzipInputStream.cs" />
+    <Compile Include="zip2\GZip\GzipOutputStream.cs" />
+    <Compile Include="zip2\ICloneable.cs" />
+    <Compile Include="zip2\SharpZipBaseException.cs" />
+    <Compile Include="zip2\Tar\InvalidHeaderException.cs" />
+    <Compile Include="zip2\Tar\TarArchive.cs" />
+    <Compile Include="zip2\Tar\TarBuffer.cs" />
+    <Compile Include="zip2\Tar\TarEntry.cs" />
+    <Compile Include="zip2\Tar\TarException.cs" />
+    <Compile Include="zip2\Tar\TarHeader.cs" />
+    <Compile Include="zip2\Tar\TarInputStream.cs" />
+    <Compile Include="zip2\Tar\TarOutputStream.cs" />
+    <Compile Include="zip2\Zip\Compression\Deflater.cs" />
+    <Compile Include="zip2\Zip\Compression\DeflaterConstants.cs" />
+    <Compile Include="zip2\Zip\Compression\DeflaterEngine.cs" />
+    <Compile Include="zip2\Zip\Compression\DeflaterHuffman.cs" />
+    <Compile Include="zip2\Zip\Compression\DeflaterPending.cs" />
+    <Compile Include="zip2\Zip\Compression\Inflater.cs" />
+    <Compile Include="zip2\Zip\Compression\InflaterDynHeader.cs" />
+    <Compile Include="zip2\Zip\Compression\InflaterHuffmanTree.cs" />
+    <Compile Include="zip2\Zip\Compression\PendingBuffer.cs" />
+    <Compile Include="zip2\Zip\Compression\Streams\DeflaterOutputStream.cs" />
+    <Compile Include="zip2\Zip\Compression\Streams\InflaterInputStream.cs" />
+    <Compile Include="zip2\Zip\Compression\Streams\OutputWindow.cs" />
+    <Compile Include="zip2\Zip\Compression\Streams\StreamManipulator.cs" />
+    <Compile Include="zip2\Zip\FastZip.cs" />
+    <Compile Include="zip2\Zip\IEntryFactory.cs" />
+    <Compile Include="zip2\Zip\WindowsNameTransform.cs" />
+    <Compile Include="zip2\Zip\ZipConstants.cs" />
+    <Compile Include="zip2\Zip\ZipEntry.cs" />
+    <Compile Include="zip2\Zip\ZipEntryFactory.cs" />
+    <Compile Include="zip2\Zip\ZipException.cs" />
+    <Compile Include="zip2\Zip\ZipExtraData.cs" />
+    <Compile Include="zip2\Zip\ZipFile.cs" />
+    <Compile Include="zip2\Zip\ZipHelperStream.cs" />
+    <Compile Include="zip2\Zip\ZipInputStream.cs" />
+    <Compile Include="zip2\Zip\ZipNameTransform.cs" />
+    <Compile Include="zip2\Zip\ZipOutputStream.cs" />
+    <Compile Include="zlib\Adler32.cs" />
+    <Compile Include="zlib\Deflate.cs" />
+    <Compile Include="zlib\InfBlocks.cs" />
+    <Compile Include="zlib\InfCodes.cs" />
+    <Compile Include="zlib\Inflate.cs" />
+    <Compile Include="zlib\InfTree.cs" />
+    <Compile Include="zlib\StaticTree.cs" />
+    <Compile Include="zlib\SupportClass.cs" />
+    <Compile Include="zlib\Tree.cs" />
+    <Compile Include="zlib\ZInputStream.cs" />
+    <Compile Include="zlib\Zlib.cs" />
+    <Compile Include="zlib\ZOutputStream.cs" />
+    <Compile Include="zlib\ZStream.cs" />
+    <Compile Include="zlib\ZStreamException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BatchModeFrm.es.resx">
+      <DependentUpon>BatchModeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchModeFrm.resx">
+      <DependentUpon>BatchModeFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchModeFrm.ta.resx">
+      <DependentUpon>BatchModeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindWebBrowserControl.es.resx">
+      <DependentUpon>FindWebBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindWebBrowserControl.resx">
+      <DependentUpon>FindWebBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindWebBrowserControl.ta.resx">
+      <DependentUpon>FindWebBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins2Frm.es.resx">
+      <DependentUpon>Plugins2Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins2Frm.resx">
+      <DependentUpon>Plugins2Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins2Frm.ta.resx">
+      <DependentUpon>Plugins2Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RendererWebBrowserControl.es.resx">
+      <DependentUpon>RendererWebBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RendererWebBrowserControl.pt.resx">
+      <DependentUpon>RendererWebBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RendererWebBrowserControl.resx">
+      <DependentUpon>RendererWebBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RendererWebBrowserControl.ta.resx">
+      <DependentUpon>RendererWebBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Verse.resx">
+      <DependentUpon>Verse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Verse.ta.resx">
+      <DependentUpon>Verse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comment.resx">
+      <DependentUpon>Comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comment.ta.resx">
+      <DependentUpon>Comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindWebView2.es.resx">
+      <DependentUpon>FindWebView2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindWebView2.resx">
+      <DependentUpon>FindWebView2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindWebView2.ta.resx">
+      <DependentUpon>FindWebView2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontFrm.es.resx">
+      <DependentUpon>FontFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontFrm.resx">
+      <DependentUpon>FontFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontFrm.ta.resx">
+      <DependentUpon>FontFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PluginProcessFrm.resx">
+      <DependentUpon>PluginProcessFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PluginProcessFrm.ta.resx">
+      <DependentUpon>PluginProcessFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferencesFrm.es.resx">
+      <DependentUpon>PreferencesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferencesFrm.resx">
+      <DependentUpon>PreferencesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferencesFrm.ta.resx">
+      <DependentUpon>PreferencesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertiesFrm.resx">
+      <DependentUpon>PropertiesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertiesFrm.ta.resx">
+      <DependentUpon>PropertiesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RendererWebView2.es.resx">
+      <DependentUpon>RendererWebView2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RendererWebView2.pt.resx">
+      <DependentUpon>RendererWebView2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RendererWebView2.resx">
+      <DependentUpon>RendererWebView2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RendererWebView2.ta.resx">
+      <DependentUpon>RendererWebView2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Sword\Properties\InstallManager.plugin" />
+    <None Include="Sword\Properties\iso639.properties" />
+    <None Include="Sword\Properties\iso639full.properties" />
+    <None Include="Sword\Properties\iso639_de.properties" />
+    <None Include="Sword\Properties\iso639_en.properties" />
+    <None Include="Sword\Properties\iso639_fa.properties" />
+    <None Include="Sword\Properties\iso639_in.properties" />
+    <None Include="Sword\Properties\iso639_vi.properties" />
+    <None Include="UNLICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DarkMode.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DarkUI.dll" />
+    <Content Include="msvcp140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\backward_inv.png" />
+    <Content Include="Resources\bible_inv.png" />
+    <Content Include="Resources\books_inv.png" />
+    <Content Include="Resources\collapse_inv.png" />
+    <Content Include="Resources\edit_inv.png" />
+    <Content Include="Resources\expand_inv.png" />
+    <Content Include="Resources\find_inv.png" />
+    <Content Include="Resources\font_inv.png" />
+    <Content Include="Resources\forward_inv.png" />
+    <Content Include="Resources\fullscreen_inv.png" />
+    <Content Include="Resources\help_inv.png" />
+    <Content Include="Resources\more_inv.png" />
+    <Content Include="Resources\paragraph_inv.png" />
+    <Content Include="Resources\print_inv.png" />
+    <Content Include="Resources\run.png" />
+    <Content Include="Resources\run_inv.png" />
+    <Content Include="Resources\show_menu_inv.png" />
+    <Content Include="Resources\stat_inv.png" />
+    <Content Include="Resources\transliterate_inv.png" />
+    <Content Include="Resources\zoom_in_inv.png" />
+    <Content Include="Resources\zoom_out_inv.png" />
+    <Content Include="Themes\Dark\Commentary.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Dark\Dictionary.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Dark\Main.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Dark\Search.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Dark\UI.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Default\Search.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Default\Dictionary.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Default\Commentary.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Default\Main.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Default\UI.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="vcruntime140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Resources\xsem_scripture_header.xml" />
+    <EmbeddedResource Include="Resources\gobible.jar" />
+    <None Include="Resources\find.png" />
+    <None Include="Resources\collapse.png" />
+    <None Include="Resources\expand.png" />
+    <None Include="Resources\backward.png" />
+    <None Include="Resources\forward.png" />
+    <None Include="Resources\logos4_docx" />
+    <None Include="Resources\logos_document_xml" />
+    <None Include="Resources\mdb.bin" />
+    <None Include="Resources\zoom_in.png" />
+    <None Include="Resources\zoom_out.png" />
+    <None Include="Resources\fullscreen.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\more.png" />
+    <None Include="Resources\paragraph.png" />
+    <None Include="Resources\show_menu.png" />
+    <None Include="Resources\font.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\transliterate.png" />
+    <None Include="Resources\stat.png" />
+    <Content Include="bible-book.ico" />
+    <Content Include="bible-book.png" />
+    <None Include="Resources\bible.png" />
+    <None Include="Resources\books.png" />
+    <Content Include="CSSword.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icudt73.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icuin73.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icuio73.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icutu73.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icuuc73.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="liblzma.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libsword.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Locale\en.txt" />
+    <Content Include="Locale\es.txt" />
+    <Content Include="Locale\pt.txt" />
+    <Content Include="Locale\ta.txt" />
+    <Content Include="Locale\user_interface.txt" />
+    <Content Include="Resources\gospel_of_john.xml" />
+    <Content Include="sqlite3.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="RtfPipe\.vs\ProjectEvaluation\rtfpipe.metadata.v2" />
+    <None Include="RtfPipe\.vs\ProjectEvaluation\rtfpipe.projects.v2" />
+    <None Include="RtfPipe\.vs\RtfPipe\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="RtfPipe\.vs\RtfPipe\FileContentIndex\6f4729a3-3a2e-445a-8f19-6c66234d6e38.vsidx" />
+    <None Include="RtfPipe\.vs\RtfPipe\FileContentIndex\7dcc04ca-f183-4496-93ab-9a84dd2f39f8.vsidx" />
+    <None Include="RtfPipe\.vs\RtfPipe\FileContentIndex\aaf02d4b-9089-40ce-b7a6-abbee0e7345d.vsidx" />
+    <None Include="RtfPipe\.vs\RtfPipe\FileContentIndex\read.lock" />
+    <None Include="RtfPipe\.vs\RtfPipe\v17\.futdcache.v1" />
+    <None Include="RtfPipe\.vs\RtfPipe\v17\.suo" />
+    <Content Include="Sword\Properties\BibleNames_af.xml" />
+    <Content Include="Sword\Properties\BibleNames_ar.xml" />
+    <Content Include="Sword\Properties\BibleNames_ar_EG.xml" />
+    <Content Include="Sword\Properties\BibleNames_bg.xml" />
+    <Content Include="Sword\Properties\BibleNames_cs.xml" />
+    <Content Include="Sword\Properties\BibleNames_da.xml" />
+    <Content Include="Sword\Properties\BibleNames_de.xml" />
+    <Content Include="Sword\Properties\BibleNames_en.xml" />
+    <Content Include="Sword\Properties\BibleNames_es.xml" />
+    <Content Include="Sword\Properties\BibleNames_et.xml" />
+    <Content Include="Sword\Properties\BibleNames_fa.xml" />
+    <Content Include="Sword\Properties\BibleNames_fi.xml" />
+    <Content Include="Sword\Properties\BibleNames_fo.xml" />
+    <Content Include="Sword\Properties\BibleNames_fr.xml" />
+    <Content Include="Sword\Properties\BibleNames_he.xml" />
+    <Content Include="Sword\Properties\BibleNames_hu.xml" />
+    <Content Include="Sword\Properties\BibleNames_id.xml" />
+    <Content Include="Sword\Properties\BibleNames_in.xml" />
+    <Content Include="Sword\Properties\BibleNames_it.xml" />
+    <Content Include="Sword\Properties\BibleNames_iw.xml" />
+    <Content Include="Sword\Properties\BibleNames_ko.xml" />
+    <Content Include="Sword\Properties\BibleNames_la.xml" />
+    <Content Include="Sword\Properties\BibleNames_lt.xml" />
+    <Content Include="Sword\Properties\BibleNames_nb.xml" />
+    <Content Include="Sword\Properties\BibleNames_nl.xml" />
+    <Content Include="Sword\Properties\BibleNames_nn.xml" />
+    <Content Include="Sword\Properties\BibleNames_no.xml" />
+    <Content Include="Sword\Properties\BibleNames_pl.xml" />
+    <Content Include="Sword\Properties\BibleNames_pt.xml" />
+    <Content Include="Sword\Properties\BibleNames_pt_BR.xml" />
+    <Content Include="Sword\Properties\BibleNames_ro.xml" />
+    <Content Include="Sword\Properties\BibleNames_ru.xml" />
+    <Content Include="Sword\Properties\BibleNames_sk.xml" />
+    <Content Include="Sword\Properties\BibleNames_sl.xml" />
+    <Content Include="Sword\Properties\BibleNames_sv.xml" />
+    <Content Include="Sword\Properties\BibleNames_th.xml" />
+    <Content Include="Sword\Properties\BibleNames_uk.xml" />
+    <Content Include="Sword\Properties\BibleNames_vi.xml" />
+    <Content Include="Sword\Properties\BibleNames_zh.xml" />
+    <Content Include="Sword\Properties\BibleNames_zh_CN.xml" />
+    <Content Include="System.Data.SQLite.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Resources\bookid.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SpeechLib">
+      <Guid>{C866CA3A-32F7-11D2-9602-00C04F8EE628}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RtfPipe\.vs\RtfPipe\FileContentIndex\merges\" />
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+  <Import Project="packages\Microsoft.Web.WebView2.1.0.2957.106\build\Microsoft.Web.WebView2.targets" Condition="Exists('packages\Microsoft.Web.WebView2.1.0.2957.106\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.Web.WebView2.1.0.2957.106\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Web.WebView2.1.0.2957.106\build\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>

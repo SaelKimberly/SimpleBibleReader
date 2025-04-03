@@ -1,0 +1,131 @@
+/*
+    - Primarily used for main display where Bible Chapter and Book content are displayed.
+*/
+body {
+    font-family: "@FontFamilyBIB@";
+    color: lightgray;
+    background: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+/* normal line-by-line verse display line */
+a.linear {
+    color: lightgray;
+    display: inline;
+    background: black;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: default;
+}
+
+/* normal line-by-line verse display hovered */
+a.linear:hover {
+    background: gray;
+    /* color: black;
+    border: 1px solid white; */
+    cursor: default;
+}
+
+/* currently selected verse */
+.selectedverse {
+    background: gray;
+    /* color: black;
+    border: 1px solid white; */
+    cursor: default;
+}
+
+/* normal verse number display line */
+.versenumber {
+    color: lightgray;
+    font-style: italic;
+}
+
+td {
+    vertical-align: top;
+}
+
+/* normal para verse display line */
+a.para {
+    color: lightgray;
+    display: inline;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: default;
+}
+
+/* normal para verse display line hovered */
+a.para:hover {
+    background: gray;
+    /* color: black;
+    border: 1px solid white;*/
+    cursor: default;
+}
+
+
+
+/* normal lexicon display */
+.lexicon {
+    color: lightskyblue;
+    font-size: smaller;
+    display: inline;
+    text-decoration: none;
+    cursor: help;
+}
+
+/* currently selected lexicon display */
+/*
+.selectedverse * .lexicon {
+    color: steelblue;
+    font-size: smaller;
+    display: inline;
+    text-decoration: none;
+    cursor: help;
+}
+*/
+
+/* currently selected lexicon display */
+/*
+a:hover * .lexicon {
+    color: steelblue;
+    font-size: smaller;
+    display: inline;
+    text-decoration: none;
+    cursor: help;
+}
+*/
+
+
+/* note display */
+blockquote {
+    color: lightyellow;
+    margin: 1em 20px;
+    padding-left: 30px;
+    white-space: pre-wrap;
+    background: transparent url("data:image/gif;base64,R0lGODlhEAAQAPQAAMXFxfr6+uzs7PHx8bu7u9TU1Le3t+Li4s/Pz9jY2MrKyvX19d3d3cDAwOfn57Kysv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAAAPABAAAAVMICQ6TyGeUPAQ4vOgpyuIggu3L27Cbq64C9jAhcDlUL2EMcBz7XqGpg3Se0RjVWpVaXQZqlMtGIwdZ7vmI4L8DYvWLiZEAbhBCgBmCAA7") no-repeat;
+}
+
+
+/* commentary icon display */
+#cmtimage {
+    content: url("data:image/gif;base64,R0lGODlhEAAQAIABAGZmZgAAACH5BAEAAAEALAAAAAAQABAAAAIhjI+py+AP2oqJzhqizhzR/WGSSFaWwxhhqnZsZr3yTCMFADs=");
+}
+
+
+textarea {
+    /* resize: none; */
+    color: lightgray;
+    background: black;
+    border: 1px solid #999999;
+    width: 100%;
+    margin: 5px 0;
+    padding: 3px;
+}

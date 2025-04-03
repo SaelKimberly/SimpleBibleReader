@@ -1,0 +1,464 @@
+ <bookStmt>
+   <bookDecl id="GEN">
+    <bookAbbreviation>GE</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Genesis</shortName>
+    <fullName>The First Book of Moses, called Genesis</fullName>
+   </bookDecl>
+   <bookDecl id="EXO">
+    <bookAbbreviation>EX</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Exodus</shortName>
+    <fullName>The Second Book of Moses, called Exodus</fullName>
+   </bookDecl>
+   <bookDecl id="LEV">
+    <bookAbbreviation>LV</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Leviticus</shortName>
+    <fullName>The Third Book of Moses, called Leviticus</fullName>
+   </bookDecl>
+   <bookDecl id="NUM">
+    <bookAbbreviation>NM</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Numbers</shortName>
+    <fullName>The Fourth Book of Moses, called Numbers</fullName>
+   </bookDecl>
+   <bookDecl id="DEU">
+    <bookAbbreviation>DT</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Deuteronomy</shortName>
+    <fullName>The Fifth Book of Moses, called Deuteronomy</fullName>
+   </bookDecl>
+   <bookDecl id="JOS">
+    <bookAbbreviation>JS</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Joshua</shortName>
+    <fullName>The Book of Joshua</fullName>
+   </bookDecl>
+   <bookDecl id="JDG">
+    <bookAbbreviation>JG</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Judges</shortName>
+    <fullName>The Book of Judges</fullName>
+   </bookDecl>
+   <bookDecl id="RUT">
+    <bookAbbreviation>RT</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Ruth</shortName>
+    <fullName>The Book of Ruth</fullName>
+   </bookDecl>
+   <bookDecl id="1SA">
+    <bookAbbreviation>1S</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>1 Samuel</shortName>
+    <fullName>The First Book of SamuelOtherwise Called the First Book of the Kings</fullName>
+   </bookDecl>
+   <bookDecl id="2SA">
+    <bookAbbreviation>2S</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>2 Samuel</shortName>
+    <fullName>The Second Book of SamuelOtherwise Called the Second Book of the Kings</fullName>
+   </bookDecl>
+   <bookDecl id="1KI">
+    <bookAbbreviation>1K</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>1 Kings</shortName>
+    <fullName>The First Book of the KingsCommonly Called the Third Book of the Kings</fullName>
+   </bookDecl>
+   <bookDecl id="2KI">
+    <bookAbbreviation>2K</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>2 Kings</shortName>
+    <fullName>The Second Book of the KingsCommonly Called the Fourth Book of the Kings</fullName>
+   </bookDecl>
+   <bookDecl id="1CH">
+    <bookAbbreviation>1CH</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>1 Chronicles</shortName>
+    <fullName>The First Book of the Chronicles</fullName>
+   </bookDecl>
+   <bookDecl id="2CH">
+    <bookAbbreviation>2CH</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>2 Chronicles</shortName>
+    <fullName>The Second Book of the Chronicles</fullName>
+   </bookDecl>
+   <bookDecl id="EZR">
+    <bookAbbreviation>EZR</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Ezra</shortName>
+    <fullName>Ezra</fullName>
+   </bookDecl>
+   <bookDecl id="NEH">
+    <bookAbbreviation>NE</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Nehemiah</shortName>
+    <fullName>The Book of Nehemiah</fullName>
+   </bookDecl>
+   <bookDecl id="EST">
+    <bookAbbreviation>ES</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Esther</shortName>
+    <fullName>The Book of Esther</fullName>
+   </bookDecl>
+   <bookDecl id="JOB">
+    <bookAbbreviation>JB</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Job</shortName>
+    <fullName>The Book of Job</fullName>
+   </bookDecl>
+   <bookDecl id="PSA">
+    <bookAbbreviation>PS</bookAbbreviation>
+    <chapterSpecifier>Psalm</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Psalms</shortName>
+    <fullName>The Book of Psalms</fullName>
+   </bookDecl>
+   <bookDecl id="PRO">
+    <bookAbbreviation>PR</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Proverbs</shortName>
+    <fullName>The Proverbs</fullName>
+   </bookDecl>
+   <bookDecl id="ECC">
+    <bookAbbreviation>EC</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Ecclesiastes</shortName>
+    <fullName>Ecclesiastesor, the Preacher</fullName>
+   </bookDecl>
+   <bookDecl id="SNG">
+    <bookAbbreviation>SS</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Song of Solomon</shortName>
+    <fullName>The Song of Solomon</fullName>
+   </bookDecl>
+   <bookDecl id="ISA">
+    <bookAbbreviation>IS</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Isaiah</shortName>
+    <fullName>The Book of the Prophet Isaiah</fullName>
+   </bookDecl>
+   <bookDecl id="JER">
+    <bookAbbreviation>JE</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Jeremiah</shortName>
+    <fullName>The Book of the Prophet Jeremiah</fullName>
+   </bookDecl>
+   <bookDecl id="LAM">
+    <bookAbbreviation>LM</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Lamentations</shortName>
+    <fullName>The Lamentations of Jeremiah</fullName>
+   </bookDecl>
+   <bookDecl id="EZK">
+    <bookAbbreviation>EZK</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Ezekiel</shortName>
+    <fullName>The Book of the Prophet Ezekiel</fullName>
+   </bookDecl>
+   <bookDecl id="DAN">
+    <bookAbbreviation>DN</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Daniel</shortName>
+    <fullName>The Book of Daniel</fullName>
+   </bookDecl>
+   <bookDecl id="HOS">
+    <bookAbbreviation>HS</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Hosea</shortName>
+    <fullName>Hosea</fullName>
+   </bookDecl>
+   <bookDecl id="JOL">
+    <bookAbbreviation>JL</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Joel</shortName>
+    <fullName>Joel</fullName>
+   </bookDecl>
+   <bookDecl id="AMO">
+    <bookAbbreviation>AM</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Amos</shortName>
+    <fullName>Amos</fullName>
+   </bookDecl>
+   <bookDecl id="OBA">
+    <bookAbbreviation>OB</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Obadiah</shortName>
+    <fullName>Obadiah</fullName>
+   </bookDecl>
+   <bookDecl id="JON">
+    <bookAbbreviation>JO</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Jonah</shortName>
+    <fullName>Jonah</fullName>
+   </bookDecl>
+   <bookDecl id="MIC">
+    <bookAbbreviation>MC</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Micah</shortName>
+    <fullName>Micah</fullName>
+   </bookDecl>
+   <bookDecl id="NAM">
+    <bookAbbreviation>NM</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Nahum</shortName>
+    <fullName>Nahum</fullName>
+   </bookDecl>
+   <bookDecl id="HAB">
+    <bookAbbreviation>HB</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Habakkuk</shortName>
+    <fullName>Habakkuk</fullName>
+   </bookDecl>
+   <bookDecl id="ZEP">
+    <bookAbbreviation>ZP</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Zephaniah</shortName>
+    <fullName>Zephaniah</fullName>
+   </bookDecl>
+   <bookDecl id="HAG">
+    <bookAbbreviation>HG</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Haggai</shortName>
+    <fullName>Haggai</fullName>
+   </bookDecl>
+   <bookDecl id="ZEC">
+    <bookAbbreviation>ZC</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Zechariah</shortName>
+    <fullName>Zechariah</fullName>
+   </bookDecl>
+   <bookDecl id="MAL">
+    <bookAbbreviation>ML</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Malachi</shortName>
+    <fullName>Malachi</fullName>
+   </bookDecl>
+   <bookDecl id="MAT">
+    <bookAbbreviation>MT</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Matthew</shortName>
+    <fullName>The Gospel According to St. Matthew</fullName>
+   </bookDecl>
+   <bookDecl id="MRK">
+    <bookAbbreviation>MK</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Mark</shortName>
+    <fullName>The Gospel According to St. Mark</fullName>
+   </bookDecl>
+   <bookDecl id="LUK">
+    <bookAbbreviation>LK</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Luke</shortName>
+    <fullName>The Gospel According to St. Luke</fullName>
+   </bookDecl>
+   <bookDecl id="JHN">
+    <bookAbbreviation>JN</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>John</shortName>
+    <fullName>The Gospel According to St. John</fullName>
+   </bookDecl>
+   <bookDecl id="ACT">
+    <bookAbbreviation>AC</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Acts</shortName>
+    <fullName>The Acts of the Apostles</fullName>
+   </bookDecl>
+   <bookDecl id="ROM">
+    <bookAbbreviation>RM</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Romans</shortName>
+    <fullName>The Epistle of Paul the Apostle to the Romans</fullName>
+   </bookDecl>
+   <bookDecl id="1CO">
+    <bookAbbreviation>1CO</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>1 Corinthians</shortName>
+    <fullName>The First Epistle of Paul the Apostle to the Corinthians</fullName>
+   </bookDecl>
+   <bookDecl id="2CO">
+    <bookAbbreviation>2CO</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>2 Corinthians</shortName>
+    <fullName>The Second Epistle of Paul the Apostle to the Corinthians</fullName>
+   </bookDecl>
+   <bookDecl id="GAL">
+    <bookAbbreviation>GL</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Galatians</shortName>
+    <fullName>The Epistle of Paul the Apostle to the Galatians</fullName>
+   </bookDecl>
+   <bookDecl id="EPH">
+    <bookAbbreviation>EP</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Ephesians</shortName>
+    <fullName>The Epistle of Paul the Apostle to the Ephesians</fullName>
+   </bookDecl>
+   <bookDecl id="PHP">
+    <bookAbbreviation>PHP</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Philippians</shortName>
+    <fullName>The Epistle of Paul the Apostle to the Philippians</fullName>
+   </bookDecl>
+   <bookDecl id="COL">
+    <bookAbbreviation>CL</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Colossians</shortName>
+    <fullName>The Epistle of Paul the Apostle to the Colossians</fullName>
+   </bookDecl>
+   <bookDecl id="1TH">
+    <bookAbbreviation>1TH</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>1 Thessalonians</shortName>
+    <fullName>The First Epistle of Paul to the Thessalonians</fullName>
+   </bookDecl>
+   <bookDecl id="2TH">
+    <bookAbbreviation>2TH</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>2 Thessalonians</shortName>
+    <fullName>The Second Epistle of Paul the Apostle to the Thessalonians</fullName>
+   </bookDecl>
+   <bookDecl id="1TI">
+    <bookAbbreviation>1TI</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>1 Timothy</shortName>
+    <fullName>The First Epistle of Paul the Apostle to Timothy</fullName>
+   </bookDecl>
+   <bookDecl id="2TI">
+    <bookAbbreviation>2TI</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>2 Timothy</shortName>
+    <fullName>The Second Epistle of Paul the Apostle to Timothy</fullName>
+   </bookDecl>
+   <bookDecl id="TIT">
+    <bookAbbreviation>TIT</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Titus</shortName>
+    <fullName>The Epistle of Paul to Titus</fullName>
+   </bookDecl>
+   <bookDecl id="PHM">
+    <bookAbbreviation>PHM</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Philemon</shortName>
+    <fullName>The Epistle of Paul to Philemon</fullName>
+   </bookDecl>
+   <bookDecl id="HEB">
+    <bookAbbreviation>HB</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Hebrews</shortName>
+    <fullName>The Epistle to the Hebrews</fullName>
+   </bookDecl>
+   <bookDecl id="JAS">
+    <bookAbbreviation>JS</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>James</shortName>
+    <fullName>The General Epistle of James</fullName>
+   </bookDecl>
+   <bookDecl id="1PE">
+    <bookAbbreviation>1P</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>1 Peter</shortName>
+    <fullName>The First Epistle General of Peter</fullName>
+   </bookDecl>
+   <bookDecl id="2PE">
+    <bookAbbreviation>2P</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>2 Peter</shortName>
+    <fullName>The Second Epistle General of Peter</fullName>
+   </bookDecl>
+   <bookDecl id="1JN">
+    <bookAbbreviation>1J</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>1 John</shortName>
+    <fullName>The First Epistle General of John</fullName>
+   </bookDecl>
+   <bookDecl id="2JN">
+    <bookAbbreviation>2J</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>2 John</shortName>
+    <fullName>The Second Epistle of John</fullName>
+   </bookDecl>
+   <bookDecl id="3JN">
+    <bookAbbreviation>3J</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>3 John</shortName>
+    <fullName>The Third Epistle of John</fullName>
+   </bookDecl>
+   <bookDecl id="JUD">
+    <bookAbbreviation>JD</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Jude</shortName>
+    <fullName>The General Epistle of Jude</fullName>
+   </bookDecl>
+   <bookDecl id="REV">
+    <bookAbbreviation>RV</bookAbbreviation>
+    <chapterSpecifier>Chapter</chapterSpecifier>
+    <verseSpecifier>Verse</verseSpecifier>
+    <shortName>Revelation</shortName>
+    <fullName>The Revelation of St. John the Divine</fullName>
+   </bookDecl>
+  </bookStmt>

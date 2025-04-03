@@ -1,0 +1,71 @@
+body {
+    font-family: "@FontFamilyBIB@";
+}
+
+li a {
+    cursor: default;
+    color: black;
+    text-decoration: none;
+    font-family: "@FontFamilyBIB@";
+}
+
+li a:hover {
+    background: #CFECEC;
+    cursor: default;
+    color: black;
+    text-decoration: none;
+    font-family: "@FontFamilyBIB@";
+}
+
+.TreeView {
+    font-family: "@FontFamilyBIB@";
+    line-height: 20px;
+    cursor: default;
+    font-style: normal;
+}
+
+.TreeView LI {
+    /* The padding is for the tree view nodes */
+    font-family: "@FontFamilyBIB@";
+    padding: 0 0 0 18px;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+TD {
+    font-family: "@FontFamilyBIB@";
+}
+
+.TreeView, .TreeView ul {
+    margin: 0;
+    padding: 0;
+}
+
+LI.Expanded {
+    background: url(data:image/gif;base64,R0lGODlhEAAQAKEBAICAgP///wAAAP///yH5BAEKAAMALAAAAAAQABAAAAIjnI+py+0PE5iULhCyDuBu3SnYx3nCeZYiqUps6JIwUtXR3RQAOw==) no-repeat left top;
+}
+
+LI.Expanded ul {
+    display: block;
+}
+
+LI.Collapsed {
+    background: url(data:image/gif;base64,R0lGODlhEAAQAKEBAICAgP///wAAAP///yH5BAEKAAMALAAAAAAQABAAAAImnI+py+0PE5iULhCyDuBqoXUKloGZKAXCunJeGb5qPG60VFXR3hQAOw==) no-repeat left top;
+}
+
+LI.Collapsed ul {
+    display: none;
+}
+
+.Highlighted {
+    color: blue;
+}
+
+.AlternateHighlight {
+    color: blue;
+}
+
+.searchterm {
+    background-color:yellow;
+}

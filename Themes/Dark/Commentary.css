@@ -1,0 +1,50 @@
+/*
+    - Used for commentary display
+*/
+
+body {
+    font-family: "@FontFamilyCMT@";
+    color: lightgray;
+    background: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+a {
+    color: black;
+    display: inline;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: default;
+}
+
+a {
+    background: #301313;
+    border: 1px solid #988989;
+    cursor: default;
+}
+
+
+pre {
+    word-wrap: break-word;
+    white-space: normal;
+    font-family: "@FontFamilyCMT@";
+}
+
+textarea {
+    /* resize: none; */
+    color: lightgray;
+    background: black;
+    border: 1px solid #999999;
+    width: 100%;
+    margin: 5px 0;
+    padding: 3px;
+}

@@ -1,0 +1,96 @@
+/*
+    - Primarily used for main display where Bible Chapter and Book content are displayed.
+*/
+body {
+    font-family: "@FontFamilyBIB@";
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+a.linear {
+    color: black;
+    display: inline;
+    background: white;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: default;
+}
+
+a.linear:hover {
+    background: #CFECEC;
+    border: 1px solid #677676;
+    cursor: default;
+}
+
+.selectedverse {
+    background: #F0F0F0;
+    border: 1px solid #677676;
+}
+
+.versenumber {
+    color: gray;
+}
+
+td {
+    vertical-align: top;
+}
+
+a.para {
+    color: black;
+    display: inline;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: default;
+}
+
+a.para:hover {
+    background: #CFECEC;
+    border: 1px solid #677676;
+    cursor: default;
+}
+
+.lexicon {
+    color: blue;
+    display: inline;
+    text-decoration: none;
+    cursor: help;
+}
+
+pre {
+    word-wrap: break-word;
+    white-space: normal;
+    font-family: "@FontFamilyBIB@";
+}
+
+/* note display */
+blockquote {
+    color: gray;
+    margin: 1em 20px;
+    padding-left: 30px;
+    white-space: pre-wrap;
+    background: transparent url("data:image/gif;base64,R0lGODlhEAAQAPQAAMXFxfr6+uzs7PHx8bu7u9TU1Le3t+Li4s/Pz9jY2MrKyvX19d3d3cDAwOfn57Kysv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAAAPABAAAAVMICQ6TyGeUPAQ4vOgpyuIggu3L27Cbq64C9jAhcDlUL2EMcBz7XqGpg3Se0RjVWpVaXQZqlMtGIwdZ7vmI4L8DYvWLiZEAbhBCgBmCAA7") no-repeat;
+}
+
+
+/* commentary icon display */
+#cmtimage {
+    content: url("data:image/gif;base64,R0lGODlhEAAQAIABAGZmZgAAACH5BAEAAAEALAAAAAAQABAAAAIhjI+py+AP2oqJzhqizhzR/WGSSFaWwxhhqnZsZr3yTCMFADs=");
+}
+
+
+
+textarea {
+    /* resize: none; */
+    border: 1px solid #999999;
+    width: 100%;
+    margin: 5px 0;
+    padding: 3px;
+}

@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StatusStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer1.BottomToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MirrorTreeView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer1.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="contextMenuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ChapterArea.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="backBtn.ToolTip" xml:space="preserve">
+    <value>பின்னிட</value>
+  </data>
+  <data name="frontBtn.ToolTip" xml:space="preserve">
+    <value>முன்போ</value>
+  </data>
+  <data name="zoomOutBtn.ToolTip" xml:space="preserve">
+    <value>உரு சிறிதாக்கு</value>
+  </data>
+  <data name="zoomInBtn.ToolTip" xml:space="preserve">
+    <value>உரு பெரிதாக்கு</value>
+  </data>
+  <data name="fullScreenBtn.ToolTip" xml:space="preserve">
+    <value>படித்தல் பகுதி அதிகரிக்க</value>
+  </data>
+  <data name="paraBtn.ToolTip" xml:space="preserve">
+    <value>பத்தி / வரி முறை</value>
+  </data>
+  <data name="fontBtn.ToolTip" xml:space="preserve">
+    <value>எழுத்துரு மாற்ற</value>
+  </data>
+  <data name="editBtn.ToolTip" xml:space="preserve">
+    <value>தொகு வேதமெட்டாடேட்டா (ஏற்றுமதி நோக்கங்களுக்காக)</value>
+  </data>
+  <data name="findBtn.ToolTip" xml:space="preserve">
+    <value>தேடல்</value>
+  </data>
+  <data name="printChapterBtn.ToolTip" xml:space="preserve">
+    <value>அத்தியாயம் அச்சிடு</value>
+  </data>
+  <data name="transliterateBtn.ToolTip" xml:space="preserve">
+    <value>ஆங்கிலம் ஒலிப்பெயர்ப்பு</value>
+  </data>
+  <data name="statBtn.ToolTip" xml:space="preserve">
+    <value>வேத புள்ளிவிபரம்</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bibleTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 38</value>
+  </data>
+  <data name="bibleTitleLbl.Text" xml:space="preserve">
+    <value>பரிசுத்த வேதாகமம்</value>
+  </data>
+  <data name="bibleTitleLbl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="helpBtn.ToolTip" xml:space="preserve">
+    <value>இணையதளத்தில் தனிப்பயிற்சி</value>
+  </data>
+  <data name="tableLayoutPanel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer3.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="commentaryTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 38</value>
+  </data>
+  <data name="commentaryTitleLbl.Text" xml:space="preserve">
+    <value>விளக்கவுரை</value>
+  </data>
+  <data name="commentaryTitleLbl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmtListBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer5.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommentaryArea.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer5.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer4.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dictionaryTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 38</value>
+  </data>
+  <data name="dictionaryTitleLbl.Text" xml:space="preserve">
+    <value>அகராதி</value>
+  </data>
+  <data name="dictionaryTitleLbl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dictListBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer6.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DictionaryArea.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer6.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer4.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer3.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer2.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SearchResultsArea.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer2.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer1.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer1.ContentPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer1.LeftToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer1.RightToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="OpenToolStripMenuItem.Text" xml:space="preserve">
+    <value>வேதாகமத்தை திற</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>வேதாகமத்தை சேமி</value>
+  </data>
+  <data name="exportBibleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="exportBibleToolStripMenuItem.Text" xml:space="preserve">
+    <value>வேதாகமத்தை ஏற்றுமதி செய்</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 6</value>
+  </data>
+  <data name="openBookToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="openBookToolStripMenuItem.Text" xml:space="preserve">
+    <value>புத்தகத்தை திற</value>
+  </data>
+  <data name="exportBookToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="exportBookToolStripMenuItem.Text" xml:space="preserve">
+    <value>புத்தகத்தை ஏற்றுமதி செய்</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 6</value>
+  </data>
+  <data name="openCommentaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="openCommentaryToolStripMenuItem.Text" xml:space="preserve">
+    <value>விளக்கவுரையை திற</value>
+  </data>
+  <data name="exportCommentaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="exportCommentaryToolStripMenuItem.Text" xml:space="preserve">
+    <value>விளக்கவுரையை ஏற்றுமதி செய்</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 6</value>
+  </data>
+  <data name="openDictionaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="openDictionaryToolStripMenuItem.Text" xml:space="preserve">
+    <value>அகராதியை திற</value>
+  </data>
+  <data name="exportDictionaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="exportDictionaryToolStripMenuItem.Text" xml:space="preserve">
+    <value>அகராதியை ஏற்றுமதி செய்</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 6</value>
+  </data>
+  <data name="batchConvertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="batchConvertToolStripMenuItem.Text" xml:space="preserve">
+    <value>தொகுதி மின்மாற்று</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 6</value>
+  </data>
+  <data name="RTL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="RTL.Text" xml:space="preserve">
+    <value>வலமிறுந்து இடம்</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>முடிவு</value>
+  </data>
+  <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>கோப்பு</value>
+  </data>
+  <data name="findToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 34</value>
+  </data>
+  <data name="findToolStripMenuItem.Text" xml:space="preserve">
+    <value>தேடு</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 29</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>பதிப்பு</value>
+  </data>
+  <data name="booksToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>387, 34</value>
+  </data>
+  <data name="booksToolStripMenuItem.Text" xml:space="preserve">
+    <value>புத்தகங்களின் வடிவமைப்பு</value>
+  </data>
+  <data name="bibleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>387, 34</value>
+  </data>
+  <data name="bibleToolStripMenuItem.Text" xml:space="preserve">
+    <value>வேதாகம வடிவமைப்பு</value>
+  </data>
+  <data name="commentaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>387, 34</value>
+  </data>
+  <data name="commentaryToolStripMenuItem.Text" xml:space="preserve">
+    <value>விளக்கவுரை வடிவமைப்பு</value>
+  </data>
+  <data name="dictionaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>387, 34</value>
+  </data>
+  <data name="dictionaryToolStripMenuItem.Text" xml:space="preserve">
+    <value>அகராதி வடிவமைப்பு</value>
+  </data>
+  <data name="searchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>387, 34</value>
+  </data>
+  <data name="searchToolStripMenuItem.Text" xml:space="preserve">
+    <value>தேடுதலின் வடிவமைப்பு</value>
+  </data>
+  <data name="layoutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 29</value>
+  </data>
+  <data name="layoutToolStripMenuItem.Text" xml:space="preserve">
+    <value>வடிவமைப்பு</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 34</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>விருப்பத்தேர்வுகள்</value>
+  </data>
+  <data name="pluginsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 34</value>
+  </data>
+  <data name="pluginsToolStripMenuItem.Text" xml:space="preserve">
+    <value>செருகி</value>
+  </data>
+  <data name="localizationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 34</value>
+  </data>
+  <data name="localizationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>பிறபாஷை</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 29</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>அமைப்பு</value>
+  </data>
+  <data name="WebsiteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 34</value>
+  </data>
+  <data name="WebsiteToolStripMenuItem.Text" xml:space="preserve">
+    <value>இணையதளம்</value>
+  </data>
+  <data name="releaseNotesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 34</value>
+  </data>
+  <data name="releaseNotesToolStripMenuItem.Text" xml:space="preserve">
+    <value>வெளியீடு குறிப்புகள்</value>
+  </data>
+  <data name="creditsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 34</value>
+  </data>
+  <data name="creditsToolStripMenuItem.Text" xml:space="preserve">
+    <value>நன்மதிப்பு </value>
+  </data>
+  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 34</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>பற்றி</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 29</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>உதவி</value>
+  </data>
+  <data name="MenuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer1.TopToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="printPreviewDialog1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAICAQAAAAAADoAgAAZgAAABAQEAAAAAAAKAEAAE4DAAAgIAAAAQAIAKgIAAB2BAAAEBAAAAEA
+        CABoBQAAHg0AACAgAAABACAAqBAAAIYSAAAQEAAAAQAgAGgEAAAuIwAAKAAAACAAAABAAAAAAQAEAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAgACAAAAAgACAAICAAACAgIAAwMDAAAAA
+        /wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIoiI
+        iIiIiIiIiIiIiIiIiIiCIigiIiIozMzMzMzMyCIogiIoIiIiKM7m5ubm5sgiKIIiKCIiIijObm5ubm7I
+        IiiCIigiIiIozubm5ubmyCIogiIoIiIiKM5ubm5ubsgiKIIiKCIiIijO5ubm5ubIIiiIiIiIiIiIzm5u
+        bm5uyCIogRERERERGM7u7u7u7sgiKIHZWVlZWRjMzMzMzMzIIiiB1ZWVlZUYiIiIiIiIiIiIgdlZWVlZ
+        GDMzMzMzMzMzOIHVlZWVlRg/uLi4uLi4uDiB2VlZWVkYP7uLi4uLi4s4gdWVlZWVGD+4uLi4uLi4OIHZ
+        WVlZWRg/u4uLi4uLiziB1ZWVlZUYP7i4uLi4uLg4gdlZWVlZGD+7i4uLi4uLOIHVlZWVlRg/uLi4uLi4
+        uDiB3d3d3d0YP7uLi4uLi4s4gRERERERGD+4uLi4uLi4OIiIiIiIiIg/u4uLi4uLiziCIiIiIiIoP7i4
+        uLi4uLg4giIiIiIiKD+7i4uLi4uLOIIiIiIiIig/uLi4uLi4uDiCIiIiIiIoP7u7u7u7u7s4giIiIiIi
+        KD//////////OIIiIiIiIigzMzMzMzMzMziIiIiIiIiIiIiIiIiIiIiIIiIiIiIiIiIiIiIiIiIiIv//
+        ////////AAAAAHv4AA57+AAOe/gADnv4AA57+AAOe/gADgAAAA4AAAAOAAAADgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/4AAB/+AAAf/gAAH/4AAB/+AAAf/gAAAAA
+        AAD/////KAAAABAAAAAgAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACA
+        gACAAAAAgACAAICAAACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAiIiIiIiIiIoiI
+        iIiIiIiIgigijMzMyCiCKCKM5mbIKIiIiIzu7sgogRERjMzMyCiB2ZGIiIiIiIHZkYMzMzM4gdmRg/u7
+        uziB3dGD+7u7OIEREYP7u7s4iIiIg/u7uziCIiKD+7u7OIIiIoP///84giIigzMzMziIiIiIiIiIiP//
+        KCIAACjObALm5mwCIigAAoiIAAKIzgAAbm4AACIoAAAREQAAGM4AAO7uAAAiKHwAWVl8ABjMfADMzAAA
+        IigoAAAAIAAAAEAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAICAgADA3MAA8MqmAKo/KgD/PyoAAF8qAFVfKgCqXyoA/18qAAB/KgBVfyoAqn8qAP9/
+        KgAAnyoAVZ8qAKqfKgD/nyoAAL8qAFW/KgCqvyoA/78qAADfKgBV3yoAqt8qAP/fKgAA/yoAVf8qAKr/
+        KgD//yoAAABVAFUAVQCqAFUA/wBVAAAfVQBVH1UAqh9VAP8fVQAAP1UAVT9VAKo/VQD/P1UAAF9VAFVf
+        VQCqX1UA/19VAAB/VQBVf1UAqn9VAP9/VQAAn1UAVZ9VAKqfVQD/n1UAAL9VAFW/VQCqv1UA/79VAADf
+        VQBV31UAqt9VAP/fVQAA/1UAVf9VAKr/VQD//1UAAAB/AFUAfwCqAH8A/wB/AAAffwBVH38Aqh9/AP8f
+        fwAAP38AVT9/AKo/fwD/P38AAF9/AFVffwCqX38A/19/AAB/fwBVf38Aqn9/AP9/fwAAn38AVZ9/AKqf
+        fwD/n38AAL9/AFW/fwCqv38A/79/AADffwBV338Aqt9/AP/ffwAA/38AVf9/AKr/fwD//38AAACqAFUA
+        qgCqAKoA/wCqAAAfqgBVH6oAqh+qAP8fqgAAP6oAVT+qAKo/qgD/P6oAAF+qAFVfqgCqX6oA/1+qAAB/
+        qgBVf6oAqn+qAP9/qgAAn6oAVZ+qAKqfqgD/n6oAAL+qAFW/qgCqv6oA/7+qAADfqgBV36oAqt+qAP/f
+        qgAA/6oAVf+qAKr/qgD//6oAAADUAFUA1ACqANQA/wDUAAAf1ABVH9QAqh/UAP8f1AAAP9QAVT/UAKo/
+        1AD/P9QAAF/UAFVf1ACqX9QA/1/UAAB/1ABVf9QAqn/UAP9/1AAAn9QAVZ/UAKqf1AD/n9QAAL/UAFW/
+        1ACqv9QA/7/UAADf1ABV39QAqt/UAP/f1AAA/9QAVf/UAKr/1AD//9QAVQD/AKoA/wAAH/8AVR//AKof
+        /wD/H/8AAD//AFU//wCqP/8A/z//AABf/wBVX/8Aql//AP9f/wAAf/8AVX//AKp//wD/f/8AAJ//AFWf
+        /wCqn/8A/5//AAC//wBVv/8Aqr//AP+//wAA3/8AVd//AKrf/wD/3/8AVf//AKr//wD/zMwA/8z/AP//
+        MwD//2YA//+ZAP//zAAAfwAAVX8AAKp/AAD/fwAAAJ8AAFWfAACqnwAA/58AAAC/AABVvwAAqr8AAP+/
+        AAAA3wAAVd8AAKrfAAD/3wAAVf8AAKr/AAAAACoAVQAqAKoAKgD/ACoAAB8qAFUfKgCqHyoA/x8qAAA/
+        KgBVPyoA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAAAAAAD//wAA////AP39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39qoYIqoYIhqoIqgiqCaoIqgiqhqqGhoYIhoYIqv39/f0I/f39
+        /ar9/f39/YY2Ng4yDg4ODgoOCgoKCgqG/f39/Yb9/f39CP39/f39qjY7Ozs3Nzc3NjMSMjIOCqr9/f39
+        qv39/f2G/f39/f0IN19fOzs3Nzc3NjcODg4KCP39/f0I/f39/ar9/f39/ao6X19fXzs7Ozc3NzY3NgqG
+        /f39/Yb9/f39CP39/f39hl9jY19jX187Ozs7Nzc3Dqr9/f39qv39/f2G/f39/f0IOodjh19jX19fXztf
+        OzcOCP39/f0ICAmqCAiqCKoICapfCYdjh2ODY19fXzs7Ow6q/f39/QhITEwoSCUoKSQoqmMJCYcJCWNj
+        Y2NfY19fNgj9/f39qkyZmZmYmJRwlCmqX19fXl9fX186WzY3Njc2gv39/f0JcJ2dmZmZlJmUJAmqCaoJ
+        hggIqggICKoIqggI/f39/YZwnp2dnZmZmJVMqnx8fHx8fFR8VHhUVFRUVKr9/f39CHChoZ2dnZ2ZmUwJ
+        fKSkxqSkxqSkpKSkpKBUCP39/f2qcKLDoqGdnZ2ZTKp8ysakxqSkxqSkxqSkpFSq/f39/QiUpqbDoqHE
+        nZ1Mq3ykqMakyqSkxqSkpKSkVAj9/f39hpTIyKbHoqGhoXAIfMrLpMqkxqSkxqTGpKRUqv39/f0IlMym
+        yKbIpcShcAh8y6jKpMqkxsqkpKSkxlQI/f39/aqUzMzMyKbIpqJwqnzLy8qpxsqkpMakxqSkeAj9/f39
+        CJSUlJSUlJSUlJQJgMupy8qpysqkyqSkxqRUqv39/f2GCKoIqgiqCKoIhgigrcvPqcuoy8qkxsqkxnyG
+        /f39/ar9/f39/f39/f39qnzPz6nLy8uoyqnKpKTKVAj9/f39CP39/f39/f39/f0IfNDPz8+py8upyqjG
+        yqR8hv39/f2G/f39/f39/f39/Qik0K7P0M+ty8vLy6jKpXyq/f39/ar9/f39/f39/f39CHzQ09Ctz8/P
+        qcupy6jKeAj9/f39CP39/f39/f39/f2qoNPQ0NPQ0M/Qz8vLy6l8CP39/f2G/f39/f39/f39/QmkfKR8
+        oHx8fHx8fHx8fHyG/f39/aoIqgiqCKoIqgiqCKoIqgiqCKoIqgiqCKoIqgj9/f39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f3/////////////
+        ///AAAAD3vgAA974AAPe+AAD3vgAA974AAPe+AADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA9/4AAPf+AAD3/gAA9/4AAPf+AAD3/gAA8AAAAP//////////ygA
+        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
+        ff//p3f//6Jw//+eav//mWT//pRf//qQWv/0i1b/7IVS/+V/Tv+gWC7/wr/B/wAAAAAAAAAAAAAAAAAA
+        AADCv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8AAAAAAAAAAAAAAAAAAAAAAAAAAMK/wf/apnP//7+d//+7
+        mP//uJL//7WM//+whv//rH///6d4//+jcf//n2v//5ll//+VYP/6kVv/9YxY/6diN//Cv8H/AAAAAAAA
+        AAAAAAAAAAAAAMK/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/96t
+        eP//wqL//8Gi//+/nv//vJn//7mT//+2jv//sYj//66A//+pev//pHP//6Bt//+bZ///l2L/r20//8K/
+        wf8AAAAAAAAAAAAAAAAAAAAAwr/B/xYXev8XF3b/GBVx/xkUbf8ZFGr/GhNm/xoSY/8bEV//HBFd/xwQ
+        W//Cv8H/4K96///Cov//wqL//8Ki///Cov//wJ///72b//+6lf//t4///7KJ//+ugv//qnv//6V0//+h
+        bv+3d0n/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/FRqE/0dN1v8/RNL/Nz3Q/y40zv8nLcz/ISfK/xwh
+        yf8WHMf/GxJh/8K/wf/gr3r/4K96/+Cvev/gr3r/3614/9yqdf/apnL/16Nw/9Sea//Rmmj/zZZk/8qR
+        X//GjFz/w4dW/7+CUv/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8SHZD/WF3a/05U1/9FS9X/PUPS/zU7
+        0P8uM83/JyzL/yAmyf8aFGn/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/
+        wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/xAfnP9obt7/YGTc/1Zb
+        2f9NU9f/RUrU/ztB0v80OdD/LDHO/xgWcv/Cv8H/Dn+n/w18pP8MeqH/DHie/wt1m/8Kc5j/CXGV/wlv
+        k/8JbJD/CGqN/wdpi/8HZ4j/BmWH/wZkhf8GYoP/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/DiKp/3l+
+        4/9vdeH/Zmze/11i2/9UWtn/S1HW/0NI1P86P9H/Fhh9/8K/wf8Ogar/Barp/wGo6P8Apef/AKPm/wCi
+        5P8An+L/AJ7h/wCd3/8AnN7/AJnc/wCY2/8AmNn/AJbX/wZjhP/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/
+        wf8MJbX/iI7n/4CF5v93fOP/bnPg/2Vr3f9bYdv/UljY/0lP1v8UGoj/wr/B/w+Erf8Lrur/Bqvq/wOo
+        6f8Apuf/AKTm/wCi5f8AoOT/AJ/i/wCd4f8AnN//AJrd/wCZ2/8AmNr/BmWH/8K/wf8AAAAAAAAAAAAA
+        AAAAAAAAwr/B/wkowP+WnOz/jpTq/4aL6P9+hOX/dXri/2xx4P9jaN3/WV/b/xEek//Cv8H/EIaw/xay
+        7P8Or+z/Cavr/wWq6v8Bp+j/AKbn/wCj5f8AoeT/AJ/j/wCe4f8AnOD/AJve/wCa3f8HZ4n/wr/B/wAA
+        AAAAAAAAAAAAAAAAAADCv8H/CCrK/6Ko7/+coe7/lZrr/42T6f+Fiub/fIHl/3N54v9rcN//ECGg/8K/
+        wf8QiLP/I7nu/xq07f8Ssez/C63r/war6v8Cqen/AKbo/wCk5v8AouX/AKHk/wCf4f8AneH/AJzf/who
+        i//Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8GLNP/q7Hy/6as8P+hpu//mp/u/5OY6/+LkOj/g4nm/3qA
+        5P8NI6z/wr/B/xCKtv8xvvD/J7rv/x627f8Vsuz/Dq/s/wmr6/8Equn/Aafo/wCl5/8Ao+X/AKHk/wCf
+        4v8AnuH/CGqO/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/wUu2/+vtPP/r7Tz/6qv8v+mq/D/oKXv/5me
+        7f+Sl+v/io/p/wsmt//Cv8H/Eo24/0HF8f82wfD/LLzv/yK47v8atO3/EbHs/wut6/8Gq+r/A6np/wCm
+        6P8Apeb/AKLl/wCh5P8IbJD/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/BC/h/wQv3/8FL9z/BS3Z/wYt
+        1v8GLNL/ByvP/wgqy/8IKcb/CSnC/8K/wf8Sjrv/Uszy/0fH8f87w/H/Mb7v/ye67/8et+7/FbPt/w6v
+        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
+</value>
+  </data>
+  <data name="printPreviewDialog1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAsAAAALAAAACwAAAAsAAAALAAAADQAAACUAAAAlAAAADQAA
+        AAsAAAALAAAACwAAAAsAAAALAAAABYhcJFODTxChg08QoYNPEKGDTxChg08QoYJOEKGcc0DvoHI474JO
+        EKGDTxChg08QoYNPEKGDTxChg08QoYhcJFOvciiLkZ2n/5KboP+Tm6D/k5ug/5Scof+VnaL/kqCr/5Gf
+        q/+UnaL/k5yh/5CaoP+QmZ//kJmf/5Cdpv+uciiLrm8ki7nY7//I5fn/vd7z/7LW7P+dwtr/kbbP/5e9
+        1f+TvNX/or/S/8LW4//y+Pv//P7//+76///D3u//rW8ki61vI4u51+7/xOH1/7rb8P+x1ev/ps3m/5zB
+        2f/M4O3/l8Hc/7jV5//U5vD/8vf6//j8/v/p9v7/w93u/61uI4utbiOLvdnv/8Th9f+21ej/s87f/8vb
+        5v/v9fn/6vj//5XB2/+41ef/1Obw//L3+v/4/P7/6fX9/8Xe7/+tbiOLrW4ji7/b8P/E4fX/tM/h/+f2
+        ///4/f7/9vv+/+j3//+Vwdv/uNXn/9Tm8P/y9/r/+Pz+/+n1/f/H3/D/rG4ji61uI4vC3fD/xOH1/7TP
+        4f/l9P//9/z+//b7/v/o9///lcHb/7jV5//U5vD/8vf6//j8/v/p9f3/yuHx/6xuI4usbiOLxd/x/8Th
+        9f+0z+H/5fT///f8/v/2+/7/6Pf//5XB2/+41ef/1Obw//L3+v/4/P7/6fX9/8zi8f+sbiOLrG4ji8ng
+        8v/E4fX/tM/h/+X0///3/P7/9vv+/+j3//+Vwdv/uNXn/9Tm8P/y9/r/+Pz+/+j1/f/P5PL/rG4ji6xu
+        I4vM4vL/w+H1/7TP4f/l9P//9/z+//b7/v/o9///lcHb/7jV5//U5vD/8vf6//j8/v/o9f3/0eXy/6xt
+        I4uvcCSJz+Tz/8Lh9f+0z+H/5fT///f8/v/2+/7/6Pf//5XB2/+41ef/1Obw//L3+v/4/P7/6PX+/9Tn
+        8/+ubySJrW8kM7vT5PnD1+T/tsva/+X1///3/P7/9vv+/+f2//+Xwdr/udbo/9Xm8f/e5uv/2uHn/9Xg
+        5v/B1uT5rW8kM////wH///8B////AaC0w5Pl9f//9/z+//n9///N4OvTn666X6m8yX+hsr51mam2M5mq
+        tRv///8B////Af///wH///8B////Af///wGgtcSJ5/b///H3+//P3eetj6q8Gf///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8Bqb7PQc/i72+ctsUZ////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAA////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAA
+        AAMAAAANAAAAFQAAABUAAAANAAAAA////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAAAFAAAAEQAAABcAAAAXAAAAFwAAABcAAAAXAAAAFwAAABcAAAAXAAAAFwAA
+        ABcAAAAXAAAAHQAAADEAAAA/AAAAPwAAADEAAAAdAAAAFwAAABcAAAAXAAAAFwAAABcAAAAXAAAAFwAA
+        ABcAAAAXAAAAFwAAABcAAAARAAAABQAAABEAAAAxAAAAQwAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAA
+        AEMAAABDAAAAQwAAAEMAAABHomwrwaZkFf+mZBX/omwrwQAAAEcAAABDAAAAQwAAAEMAAABDAAAAQwAA
+        AEMAAABDAAAAQwAAAEMAAABDAAAAQwAAADEAAAARAAAAF7l9MvOmZBX/pmQV/6ZkFf+mZBX/pmQV/6Zk
+        Ff+mZBX/pmQV/6ZkFf+mZBX/pmQV/6ZkFf+mZBX/hpmm/5WTif+mZBX/pmQV/6ZkFf+mZBX/pmQV/6Zk
+        Ff+mZBX/pmQV/6ZkFf+mZBX/pmQV/6ZkFf+mZBX/uX0y8wAAABcAAAAXv30u/5SYmP+XlpH/l5aQ/5eW
+        kP+XlpD/l5aQ/5eWkP+XlpD/l5aQ/5eWkP+XlpH/l5aQ/5iWj/+Iobn/iKG5/5iWj/+XlpD/l5aR/5eW
+        kP+XlpD/l5aQ/5eWkP+XlpD/l5aQ/5eWkP+XlpD/l5aR/5SYmP++fS7/AAAAFwAAABe/eyr/jafA/46h
+        s/+OoLD/jqCw/4+gsP+PoLH/kKGx/5Gisv+So7P/k6S0/5Sltf+UpbX/lKW0/5Sks/+UpLP/k6S0/5Ol
+        tf+SpLX/kaOz/46hsv+Ln7H/ip2w/4mdr/+Jna//ip2v/4uer/+MoLL/jKbA/757Kv8AAAAXAAAAF756
+        KP+dweD/1vL//83q/v/H5vv/wuP3/7zf9f+43PL/q9Do/5m81P+Lq8P/hKO7/4Ojuv+Ep8D/k73W/4+9
+        2P+KqcH/h6W6/4qmu/+fuMv/us7b/+Tu9f////////////7////2////7v3//+r+//+gw+D/vXoo/wAA
+        ABcAAAAXvXkn/52/3v/U7///yeX4/8Ph9f++3vL/udrw/7XX7f+w1ez/rNLq/6fP6P+izOb/ncnk/5XD
+        3/+xz+H/kb/b/6XM4/+01en/xN7t/9Ln8v/g7fb/7fb6//v+///+////9vz//+/5///n9v//5vn//57B
+        3v+9eSf/AAAAFwAAABe9eSf/ncDe/9Tv///H4/f/wuD0/73d8f+42e//tNbs/6/T6v+q0Oj/pc3m/5/J
+        4/+ZxN//mbvQ/9bn8/+OvNn/osng/7LS5v/A2ur/zuPu/9zq8//r8/j/+vz9//3////0+v7/7ff+/+X1
+        /v/m+P//n8Le/7x4J/8AAAAXAAAAF715J/+gwd7/1u///8fj9//C4PT/vd3x/7jZ8P+01+3/r9Tr/6nQ
+        6P+iyuL/nL7W/5+8z//X5/L/6/r//4u62P+hyN//sdHl/7/Z6f/N4u7/3Orz/+rz+P/6/P3//f////T6
+        /v/t9/7/5fX+/+f4//+hw9//vHgn/wAAABcAAAAXvXgn/6HC4P/X8P//x+P2/8Lg9P+93vL/stLm/6rL
+        4P+hwdb/nLrO/6bA0f/W4uv/9Pr+/+76///o+P//i7rX/6HI3/+x0eX/v9np/83i7v/c6vP/6vP4//r8
+        /f/9////9Pr+/+33/v/l9P3/6Pn//6LD3/+8eCf/AAAAFwAAABe8eCf/osTh/9rx///H4/b/wuD0/73e
+        8/+txtj/uNDg/8rc6f/u9vv////////////z+///6/f//+f3//+Kutf/ocjf/7HR5f+/2en/zeLu/9zq
+        8//q8/j/+vz9//3////0+v7/7ff+/+X0/f/p+f//o8Tg/7x4J/8AAAAXAAAAF7x4J/+jxeH/2/H//8fj
+        9v/C4PT/vd7z/63B0f/l9///7Pj///X8///+/////P7///H5/v/q9///5/f//4q61/+hyN//sdHl/7/Z
+        6f/N4u7/3Orz/+rz+P/6/P3//f////T6/v/t9/7/5fT9/+n6//+kxeH/vHgn/wAAABcAAAAXvHgn/6TG
+        4v/d8v//x+P2/8Lg9P+93vP/rMDQ/+P1///p9v//8/r+//3////7/f//8fn+/+r3///n9///irrX/6HI
+        3/+x0eX/v9np/83i7v/c6vP/6vP4//r8/f/9////9Pr+/+33/v/l9P3/6vr//6fG4f+7eCf/AAAAFwAA
+        ABe8eCf/psfi/97z///H4/b/wuD0/73e8/+swND/4vT//+j1///y+v7//f////v9///x+f7/6vf//+f3
+        //+Kutf/ocjf/7HR5f+/2en/zeLu/9zq8//q8/j/+vz9//3////0+v7/7ff+/+X0/f/s+v//qMfj/7t4
+        J/8AAAAXAAAAF7x4J/+nx+P/3/P//8bj9v/C4PT/vd7z/6zA0P/i9P//6PX///L6/v/9////+/3///H5
+        /v/q9///5/f//4q61/+hyN//sdHl/7/Z6f/N4u7/3Orz/+rz+P/6/P3//f////T6/v/t9/7/5fT9/+37
+        //+pyOP/u3gn/wAAABcAAAAXvHgn/6jI4//i9f//xuP2/8Lg9P+93vP/rMDQ/+L0///o9f//8vr+//3/
+        ///7/f//8fn+/+r3///n9///irrX/6HI3/+x0eX/v9np/83i7v/c6vP/6vP4//r8/f/9////9Pr+/+33
+        /v/l9P3/7vv//6rK5P+7eCf/AAAAFwAAABe7eCf/qcnk/+P2///G4/b/wuD0/73e8/+swND/4vT//+j1
+        ///y+v7//f////v9///x+f7/6vf//+f3//+Kutf/ocjf/7HR5f+/2en/zeLu/9zq8//q8/j/+vz9//3/
+        ///0+v7/7ff+/+X0/f/v+///q8vk/7t4J/8AAAAXAAAAF7t4J/+syuX/5fb//8bj9v/C4PT/vd7z/6zA
+        0P/i9P//6PX///L6/v/9////+/3///H5/v/q9///5/f//4q61/+hyN//sdHl/7/Z6f/N4u7/3Orz/+rz
+        +P/6/P3//f////T6/v/t9/7/5PT9//D8//+uzOX/u3gn/wAAABcAAAAXu3gn/63L5f/m9///xuP2/8Lg
+        9P+93vP/rMDQ/+L0///o9f//8vr+//3////7/f//8fn+/+r3///n9///irrX/6HI3/+x0eX/v9np/83i
+        7v/c6vP/6vP4//r8/f/9////9Pr+/+33/v/k9P3/8fz//6/N5v+7eCf/AAAAFwAAABe7eCf/rs3m/+n4
+        ///F4/b/wuD0/73e8/+swND/4vT//+j1///y+v7//f////v9///x+f7/6vf//+f3//+Kutf/ocjf/7HR
+        5f+/2en/zeLu/9zq8//q8/j/+vz9//3////0+v7/7ff+/+T0/f/y/f//sM7m/7t3J/8AAAAXAAAAF7t4
+        J/+vzub/6vj//8Xj9v/C4PT/vd7z/6zA0P/i9P//6PX///L6/v/9////+/3///H5/v/q9///5/f//4q6
+        1/+hyN//sdHl/7/Z6f/N4u7/3Orz/+rz+P/6/P3//f////T6/v/t9/7/5PT9//P9//+xzuf/u3cn/wAA
+        ABcAAAAVu3gn/7HP6P/r+f//xeL2/8Hg9P+93vP/rMDQ/+L0///o9f//8vr+//3////7/f//8fn+/+r3
+        ///n9///irrX/6HI3/+x0eX/v9np/83i7v/c6vP/6vP4//r8/f/9////9Pr+/+33/v/k9P3/8/3//7PP
+        5/+6dyf/AAAAFQAAAA+7eCf/ss/o/+77///F4vb/wOD1/7ze8/+swND/4vT//+j1///y+v7//f////v9
+        ///x+f7/6vf//+f3//+Kutf/ocjf/7HR5f+/2en/zeLu/9zq8//q8/j/+vz+//3////1+///7ff//+T1
+        /v/1////tdHp/7p3J/8AAAAPAAAABbV0JsW10+v/5Pf//9/x/v/b7/z/2e78/6zB0f/i9f//6PX///L6
+        /v/9////+/3///H5/v/q9///5/f//4q62P+hyeD/sdHl/7/Z6f/O4+//5vH4//b7/v//////////////
+        ///6////9f3///L+//+41Ov/tXQmxQAAAAX///8BAAAABajB1+utwdH/q7/N/6q+zP+ovMv/rcLT/+L1
+        ///o9f//8vr+//3////7/f//8fn+/+v4///i8///k7fO/6HK4v+y0+j/wtzs/9Ln8//R4Or/yNXd/7vJ
+        0v+2xM//tMPP/7TCz/+yws3/scPR/6fC1+sAAAAF////Af///wH///8B////Af///wH///8B////AWhy
+        eTuuxNT/4/X//+j1///y+v7//f////z+///z+v//7vv//8DX5e+Wo65/prbC96q8yv+pvMj/o7S//6Cw
+        vdGbq7iFl6izSZensjebrbk3////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BAAAAF67E1P/j9f//6PX///P6/v/9/////v////f+///R4+//jqm7YQAAAAP///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAAAXrcPU/+P1///p9v//9fz////////+////xdfl/5KuwGEAAAAD////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAABGtw9P/5Pb//+35///0+///3ujw/6C7zat0iZcP////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BAAAAB67D1P/Z7Pr5wtfiv6C6yl8AAAAD////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>எளிய வேத படிப்பி</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>
