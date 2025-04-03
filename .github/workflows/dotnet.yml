@@ -28,3 +28,15 @@ jobs:
       shell: cmd
       working-directory: 'targeting-pack'
       run: ndp481-devpack-enu.exe /q
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Setup Nuget.exe
+      uses: warrenbuckley/Setup-Nuget@v1
+
+    - name: Restore dependencies
+      run: nuget restore SimpleBibleReader.sln
+
+    - name: Build
+      run: msbuild SimpleBibleReader.sln /p:Configuration=Release
