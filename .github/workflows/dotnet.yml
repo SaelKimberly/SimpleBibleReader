@@ -32,5 +32,11 @@ jobs:
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
 
+    - name: Setup NuGet
+      uses: nuget/setup-nuget@v2
+
+    - name: Restore dependencies
+      run: nuget restore "Simple Bible Reader.sln"
+
     - name: Build
       run: msbuild "Simple Bible Reader.sln" /p:Configuration=Release
