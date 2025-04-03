@@ -1,0 +1,42 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    # download DotNet Framework (v4.8.x) targeting pack
+    - name: Download Net Framework targeting pack
+      uses: carlosperate/download-file-action@v2
+      with:
+        file-url: 'https://download.visualstudio.microsoft.com/download/pr/6f083c7e-bd40-44d4-9e3f-ffba71ec8b09/9ba926620d8e7568cbd0b84c7177a984/ndp481-devpack-enu.exe'
+        location: './targeting-pack'
+    # Install the DotNetFramework workload
+    - name: Install Net Framework targeting pack
+      shell: cmd
+      working-directory: 'targeting-pack'
+      run: ndp481-devpack-enu.exe /q
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Setup NuGet
+      uses: nuget/setup-nuget@v2
+
+    - name: Restore dependencies
+      run: nuget restore "Simple Bible Reader.sln"
+
+    - name: Build
+      run: msbuild "Simple Bible Reader.sln" /p:Configuration=Release
